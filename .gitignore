@@ -62,3 +62,10 @@ Thumbs.db
 # Secrets
 .env
 .env.*
+
+# Generated / account-specific AWS deployment artifacts
+deployment/v3/
+ecs-network-configuration.json
+ecs-task-definition.json
+ecs-task-runtime-policy.json
+ecs-task-trust-policy.json
