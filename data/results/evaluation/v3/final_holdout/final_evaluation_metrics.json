@@ -1,0 +1,120 @@
+{
+  "system": "Evidence-Grounded Obesity Drug Competitive Intelligence Copilot",
+  "system_version": "v3",
+  "evaluation_status": "FROZEN",
+  "holdout": {
+    "name": "final_holdout_v1",
+    "question_count": 12,
+    "sha256": "e86083bdf0c65edc92b5487010481a857ef3e95b300e9280fc068efc868df598",
+    "fresh_post_hardening_holdout": true
+  },
+  "automated": {
+    "system_version": "v3",
+    "holdout": "final_holdout_v1",
+    "holdout_sha256": "e86083bdf0c65edc92b5487010481a857ef3e95b300e9280fc068efc868df598",
+    "question_count": 12,
+    "pipeline_success_rate": 1.0,
+    "exact_route_accuracy": 1.0,
+    "abstention": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "deterministic_grounding": {
+      "citation_validity": 1.0,
+      "citation_coverage": 1.0,
+      "validator_pass_rate": 1.0
+    },
+    "reliability": {
+      "synthesis_repair_rate": 0.08333333333333333,
+      "median_latency_ms": 4191.299999999999,
+      "p95_latency_ms": 8520.395
+    },
+    "semantic_correctness": "PENDING HUMAN REVIEW",
+    "citation_entailment": "PENDING HUMAN REVIEW"
+  },
+  "human": {
+    "question_count": 12,
+    "answer_correctness": {
+      "pass_rate": 0.6666666666666666,
+      "pass_or_partial_rate": 0.9166666666666666,
+      "distribution": {
+        "pass": 0.6666666666666666,
+        "partial": 0.25,
+        "fail": 0.08333333333333333
+      }
+    },
+    "groundedness": {
+      "pass_rate": 0.8333333333333334,
+      "pass_or_partial_rate": 0.9166666666666666,
+      "distribution": {
+        "pass": 0.8333333333333334,
+        "fail": 0.08333333333333333,
+        "partial": 0.08333333333333333
+      }
+    },
+    "completeness": {
+      "pass_rate": 0.75,
+      "pass_or_partial_rate": 1.0,
+      "distribution": {
+        "pass": 0.75,
+        "partial": 0.25
+      }
+    },
+    "citation_entailment": {
+      "applicable_questions": 6,
+      "pass_rate": 0.8333333333333334,
+      "pass_or_partial_rate": 1.0,
+      "distribution": {
+        "not_applicable": 0.5,
+        "pass": 0.4166666666666667,
+        "partial": 0.08333333333333333
+      }
+    },
+    "route_acceptability": 1.0,
+    "by_expected_route": {
+      "abstain": {
+        "n": 3,
+        "answer_correctness_pass": 1.0,
+        "groundedness_pass": 1.0,
+        "completeness_pass": 1.0,
+        "route_acceptable": 1.0
+      },
+      "hybrid": {
+        "n": 3,
+        "answer_correctness_pass": 0.0,
+        "groundedness_pass": 0.6666666666666666,
+        "completeness_pass": 0.0,
+        "route_acceptable": 1.0
+      },
+      "retrieval": {
+        "n": 3,
+        "answer_correctness_pass": 1.0,
+        "groundedness_pass": 1.0,
+        "completeness_pass": 1.0,
+        "route_acceptable": 1.0
+      },
+      "structured": {
+        "n": 3,
+        "answer_correctness_pass": 0.6666666666666666,
+        "groundedness_pass": 0.6666666666666666,
+        "completeness_pass": 1.0,
+        "route_acceptable": 1.0
+      }
+    },
+    "material_failures": {
+      "answer_correctness": 1,
+      "groundedness": 1,
+      "completeness": 0,
+      "citation_entailment": 0
+    }
+  },
+  "methodology": {
+    "original_40_question_benchmark_used_for": "diagnosis and system hardening",
+    "final_12_question_holdout_used_for": "untuned final evaluation",
+    "llm_as_judge_used_for_final_semantic_score": false,
+    "human_review_used_for_final_semantic_score": true,
+    "retrieval_tuned_on_final_holdout": false,
+    "system_tuned_on_final_holdout": false
+  }
+}

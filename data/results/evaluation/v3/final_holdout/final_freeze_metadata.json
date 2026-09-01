@@ -1,0 +1,9 @@
+{
+  "system_version": "v3",
+  "status": "FROZEN",
+  "holdout_sha256": "e86083bdf0c65edc92b5487010481a857ef3e95b300e9280fc068efc868df598",
+  "human_review_sha256": "9d0b23f2388bb808966d2e5e63240021e1052b297ad322db74f12036c74ff767",
+  "final_metrics_sha256": "b07e0d31db8f0dbd861a5ffab428628875b6454ca55c4a6ebc8376e719447630",
+  "question_count": 12,
+  "post_freeze_rule": "No further model, planner, retrieval, semantic, or prompt changes may be reported against this holdout as an independent test."
+}

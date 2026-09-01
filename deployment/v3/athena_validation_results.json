@@ -1,0 +1,147 @@
+{
+  "system_version": "v3",
+  "database": "obesity_ci_copilot",
+  "workgroup": "obesity-ci-copilot-v3",
+  "validation_status": "PASS",
+  "queries": {
+    "01_row_count.sql": {
+      "query_execution_id": "f65727c6-1dd2-4230-a302-fe00d75b75b8",
+      "data_scanned_bytes": 0,
+      "engine_execution_ms": 412,
+      "rows": [
+        {
+          "trial_count": "139"
+        }
+      ]
+    },
+    "02_company_portfolio.sql": {
+      "query_execution_id": "39bc3fcc-476d-4c0b-8556-bfa87b3e8e11",
+      "data_scanned_bytes": 380,
+      "engine_execution_ms": 444,
+      "rows": [
+        {
+          "canonical_company": "Amgen",
+          "trial_count": "8",
+          "active_trial_count": "7",
+          "active_share_pct": "87.5"
+        },
+        {
+          "canonical_company": "Boehringer Ingelheim",
+          "trial_count": "7",
+          "active_trial_count": "1",
+          "active_share_pct": "14.3"
+        },
+        {
+          "canonical_company": "Eli Lilly",
+          "trial_count": "54",
+          "active_trial_count": "25",
+          "active_share_pct": "46.3"
+        },
+        {
+          "canonical_company": "Novo Nordisk",
+          "trial_count": "70",
+          "active_trial_count": "25",
+          "active_share_pct": "35.7"
+        }
+      ]
+    },
+    "03_median_enrollment.sql": {
+      "query_execution_id": "c1572127-5c5d-4098-ac0a-abc1ae8e9f7d",
+      "data_scanned_bytes": 1408,
+      "engine_execution_ms": 477,
+      "rows": [
+        {
+          "canonical_company": "Amgen",
+          "median_enrollment": "771.0"
+        },
+        {
+          "canonical_company": "Boehringer Ingelheim",
+          "median_enrollment": "307.0"
+        },
+        {
+          "canonical_company": "Eli Lilly",
+          "median_enrollment": "414.0"
+        },
+        {
+          "canonical_company": "Novo Nordisk",
+          "median_enrollment": "400.0"
+        }
+      ]
+    },
+    "04_program_scale.sql": {
+      "query_execution_id": "1d736753-3c83-4fea-b9ba-5fad4d5bab14",
+      "data_scanned_bytes": 549,
+      "engine_execution_ms": 428,
+      "rows": [
+        {
+          "primary_program": "Semaglutide",
+          "trial_count": "26"
+        },
+        {
+          "primary_program": "Tirzepatide",
+          "trial_count": "18"
+        },
+        {
+          "primary_program": "Liraglutide",
+          "trial_count": "12"
+        },
+        {
+          "primary_program": "Zenagamtide",
+          "trial_count": "12"
+        },
+        {
+          "primary_program": "CagriSema",
+          "trial_count": "11"
+        },
+        {
+          "primary_program": "Retatrutide",
+          "trial_count": "10"
+        },
+        {
+          "primary_program": "Maridebart cafraglutide",
+          "trial_count": "8"
+        },
+        {
+          "primary_program": "Orforglipron",
+          "trial_count": "8"
+        },
+        {
+          "primary_program": "Eloralintide",
+          "trial_count": "6"
+        },
+        {
+          "primary_program": "Survodutide",
+          "trial_count": "6"
+        },
+        {
+          "primary_program": "Cagrilintide",
+          "trial_count": "3"
+        },
+        {
+          "primary_program": "NNC0662-0419",
+          "trial_count": "2"
+        },
+        {
+          "primary_program": "Naperiglipron",
+          "trial_count": "2"
+        },
+        {
+          "primary_program": "Bimagrumab",
+          "trial_count": "1"
+        }
+      ]
+    },
+    "05_zenagamtide_validation.sql": {
+      "query_execution_id": "6d12ceb9-6071-4868-9362-b5ed3f588c4b",
+      "data_scanned_bytes": 897,
+      "engine_execution_ms": 380,
+      "rows": [
+        {
+          "total_trials": "12",
+          "active_trials": "11",
+          "phase3_trials": "11"
+        }
+      ]
+    }
+  }
+}

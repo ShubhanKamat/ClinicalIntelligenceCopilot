@@ -1,0 +1,22 @@
+{
+  "v1": {
+    "pipeline_success_rate": 0.85,
+    "route_accuracy": 0.8235294117647058,
+    "judge_answer_correctness_pass_rate": 0.9411764705882353,
+    "median_latency_ms": 3489.6000000000004
+  },
+  "v2": {
+    "pipeline_success_rate": 1.0,
+    "route_accuracy": 0.8,
+    "judge_answer_correctness_pass_rate": 1.0,
+    "median_latency_ms": 4073.75
+  },
+  "delta": {
+    "pipeline_success_rate": 0.15000000000000002,
+    "route_accuracy": -0.0235294117647058,
+    "judge_answer_correctness_pass_rate": 0.05882352941176472,
+    "median_latency_ms": 584.1499999999996
+  },
+  "recovered_pipeline_failures": 6,
+  "route_changes": 7
+}

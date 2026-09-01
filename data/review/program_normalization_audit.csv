@@ -1,0 +1,44 @@
+canonical_company,canonical_program,trial_count,likely_external_comparator,known_primary_company,major_program_candidate
+Amgen,Maridebart cafraglutide,8,False,Amgen,True
+Boehringer Ingelheim,BI 3034701,1,False,,False
+Boehringer Ingelheim,Survodutide,6,False,Boehringer Ingelheim,True
+Eli Lilly,Bimagrumab,3,False,,True
+Eli Lilly,Eloralintide,10,False,Eli Lilly,True
+Eli Lilly,Ixekizumab,2,False,,True
+Eli Lilly,LY2189265,1,False,,False
+Eli Lilly,LY3305677,1,False,,False
+Eli Lilly,LY377604,1,False,,False
+Eli Lilly,LY6249492,1,False,,False
+Eli Lilly,Macupatide,3,False,Eli Lilly,True
+Eli Lilly,Mazdutide,1,False,,False
+Eli Lilly,Metoprolol,1,False,,False
+Eli Lilly,Mibavademab,1,False,,False
+Eli Lilly,Mirikizumab,2,False,,True
+Eli Lilly,Naperiglipron,2,False,Eli Lilly,True
+Eli Lilly,Orforglipron,8,False,Eli Lilly,True
+Eli Lilly,Retatrutide,10,False,Eli Lilly,True
+Eli Lilly,Semaglutide,2,True,Novo Nordisk,False
+Eli Lilly,Sibutramine,1,False,,False
+Eli Lilly,Tirzepatide,23,False,Eli Lilly,True
+Novo Nordisk,CMS Intensive Behavior Therapy,1,False,,False
+Novo Nordisk,CagriSema,3,False,Novo Nordisk,True
+Novo Nordisk,Cagrilintide,11,False,Novo Nordisk,True
+Novo Nordisk,Empagliflozin,1,False,,False
+Novo Nordisk,Liraglutide,14,False,Novo Nordisk,True
+Novo Nordisk,NNC0174-0833,1,False,,False
+Novo Nordisk,NNC0519-0130,1,False,,False
+Novo Nordisk,NNC0662-0419,2,False,,True
+Novo Nordisk,Oral semaglutide,1,False,,False
+Novo Nordisk,Semaglutide,36,False,Novo Nordisk,True
+Novo Nordisk,Semaglutide 1.0 mg,1,False,,False
+Novo Nordisk,Semaglutide 2.4 mg and NNC0165-1875 1.0 mg,1,False,,False
+Novo Nordisk,Semaglutide 2.4 mg and NNC0165-1875 2.0 mg,1,False,,False
+Novo Nordisk,Tirzepatide,2,True,Eli Lilly,False
+Novo Nordisk,UBT251,1,False,,False
+Novo Nordisk,Zenagamtide,12,False,Novo Nordisk,True
+Novo Nordisk,insulin NPH,1,False,,False
+Novo Nordisk,insulin aspart,1,False,,False
+Novo Nordisk,insulin detemir,1,False,,False
+Novo Nordisk,metformin,1,False,,False
+Novo Nordisk,orlistat,1,False,,False
+Novo Nordisk,semaglutide 50 mg,1,False,,False

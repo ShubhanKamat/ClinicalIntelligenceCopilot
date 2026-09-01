@@ -1,0 +1,9 @@
+canonical_company,canonical_program,trial_count,likely_external_comparator,known_primary_company,major_program_candidate
+Novo Nordisk,NNC0662-0419,2,False,,True
+Boehringer Ingelheim,BI 3034701,1,False,,False
+Eli Lilly,LY3305677,1,False,,False
+Eli Lilly,LY2189265,1,False,,False
+Eli Lilly,LY377604,1,False,,False
+Eli Lilly,LY6249492,1,False,,False
+Novo Nordisk,NNC0174-0833,1,False,,False
+Novo Nordisk,NNC0519-0130,1,False,,False

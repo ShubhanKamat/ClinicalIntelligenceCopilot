@@ -1,0 +1,18 @@
+{
+  "baseline": "Stage-6 v1 frozen before changes",
+  "change_reason": "Formal evaluation exposed inability of pooled summarize_trials output to answer grouped comparative analytical questions.",
+  "changes": [
+    "Added deterministic company_breakdown.",
+    "Added deterministic primary_program_breakdown.",
+    "Added active_share at overall and group level.",
+    "Added per-group phase and status distributions.",
+    "Added per-group median/mean/min/max enrollment.",
+    "Added per-group geography and start-year ranges."
+  ],
+  "retrieval_changed": false,
+  "retrieval_parameters_changed": false,
+  "planner_prompt_changed": false,
+  "benchmark_changed": false,
+  "benchmark_gold_changed": false,
+  "semantic_scope_changed": false
+}

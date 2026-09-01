@@ -1,0 +1,20 @@
+question_id,question_type,route,question,gold_count,recall_at_5,recall_at_10,hit_at_5,hit_at_10,mrr,first_relevant_rank,top_1_nct,top_1_is_gold
+F06,factual,retrieval,What primary outcomes are used in Phase 3 Retatrutide obesity trials?,4,0.5,1.0,1.0,1.0,0.3333333333333333,3.0,NCT07232719,False
+F07,factual,retrieval,What populations are being studied in Survodutide obesity trials?,6,0.8333333333333334,1.0,1.0,1.0,1.0,1.0,NCT06176365,True
+F08,factual,retrieval,What primary endpoints are used in Maridebart cafraglutide obesity trials?,4,0.5,1.0,1.0,1.0,0.3333333333333333,3.0,NCT06858878,False
+F09,factual,retrieval,What trial objectives are being studied for Zenagamtide in obesity?,7,0.42857142857142855,0.7142857142857143,1.0,1.0,1.0,1.0,NCT07720271,True
+C03,comparative,hybrid,How do Tirzepatide and Semaglutide obesity trial programs differ in development scale and trial objectives?,6,0.0,0.0,0.0,0.0,0.0,,NCT05822830,False
+C04,comparative,retrieval,How do primary outcomes differ between Retatrutide and Orforglipron obesity trials?,6,0.5,0.6666666666666666,1.0,1.0,1.0,1.0,NCT05869903,True
+C05,comparative,hybrid,Compare the obesity development footprints of Survodutide and Maridebart cafraglutide.,8,0.375,0.75,1.0,1.0,1.0,1.0,NCT06858839,True
+C06,comparative,hybrid,How do Novo Nordisk's Zenagamtide and CagriSema programs differ in trial maturity?,6,0.3333333333333333,0.5,1.0,1.0,0.25,4.0,NCT06780449,False
+C08,comparative,retrieval,How do the studied populations differ between Cagrilintide and Eloralintide obesity trials?,8,0.5,0.625,1.0,1.0,1.0,1.0,NCT07745504,True
+A01,analytical,hybrid,What does the trial evidence suggest about how Novo Nordisk's obesity pipeline has evolved from established products toward newer programs?,5,0.0,0.0,0.0,0.0,0.05263157894736842,19.0,NCT07184632,False
+A02,analytical,hybrid,What does the trial portfolio suggest about how Eli Lilly is diversifying beyond Tirzepatide?,6,0.0,0.3333333333333333,0.0,1.0,0.16666666666666666,6.0,NCT04657016,False
+A03,analytical,retrieval,"Across the four companies, what types of primary outcomes are most commonly used in obesity trials?",7,0.14285714285714285,0.14285714285714285,1.0,1.0,0.5,2.0,NCT07184632,False
+A04,analytical,hybrid,"Which obesity programs appear to have the broadest clinical development footprints in this corpus, and what evidence supports that assessment?",8,0.125,0.125,1.0,1.0,0.25,4.0,NCT02963935,False
+A05,analytical,retrieval,How do obesity trials expand beyond weight-loss endpoints into cardiovascular or other clinical outcomes?,4,0.0,0.0,0.0,0.0,0.0,,NCT03856047,False
+A06,analytical,hybrid,How does Amgen's obesity development strategy differ from the larger Novo Nordisk and Eli Lilly portfolios in this dataset?,5,0.0,0.0,0.0,0.0,0.09090909090909091,11.0,NCT00504673,False
+A07,analytical,retrieval,What evidence shows obesity programs being evaluated in distinct patient subpopulations or obesity-related clinical contexts?,5,0.0,0.0,0.0,0.0,0.0,,NCT06124807,False
+A08,analytical,hybrid,"What does the current trial-status mix suggest about the maturity of Amgen, Boehringer Ingelheim, Eli Lilly and Novo Nordisk obesity portfolios?",7,0.0,0.0,0.0,0.0,0.08333333333333333,12.0,NCT06143956,False
+A09,analytical,retrieval,How diverse are the trial populations and geographies represented in the major obesity programs?,6,0.0,0.0,0.0,0.0,0.0,,NCT07011667,False
+A10,analytical,hybrid,"What are the main differences in clinical-development breadth between Semaglutide, Tirzepatide, Retatrutide and Maridebart cafraglutide in this corpus?",6,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,NCT05822830,True

@@ -1,0 +1,52 @@
+{
+  "benchmark_questions": 40,
+  "route_accuracy": 0.8235294117647058,
+  "abstention": {
+    "accuracy": 0.975,
+    "precision": 1.0,
+    "recall": 0.9
+  },
+  "retrieval": {
+    "question_count": 17,
+    "recall_at_5": 0.20714285714285713,
+    "recall_at_10": 0.3216386554621849,
+    "hit_at_5": 0.5294117647058824,
+    "hit_at_10": 0.5294117647058824,
+    "mrr": 0.3696078431372549
+  },
+  "deterministic_grounding": {
+    "mean_citation_validity": 1.0,
+    "mean_citation_coverage": 1.0
+  },
+  "auxiliary_semantic_judge": {
+    "answer_correctness": {
+      "pass": 0.9411764705882353,
+      "fail": 0.058823529411764705
+    },
+    "groundedness": {
+      "pass": 0.9411764705882353,
+      "fail": 0.058823529411764705
+    },
+    "completeness": {
+      "pass": 0.9411764705882353,
+      "fail": 0.058823529411764705
+    },
+    "citation_entailment": {
+      "not_applicable": 0.6176470588235294,
+      "pass": 0.38235294117647056
+    },
+    "abstention_correct_rate": 1.0
+  },
+  "reliability": {
+    "pipeline_success_rate": 0.85,
+    "grounding_validator_pass_rate": 1.0,
+    "synthesis_repair_rate": 0.058823529411764705,
+    "median_latency_ms": 3489.6000000000004,
+    "p95_latency_ms": 6722.834999999997,
+    "mean_planner_input_tokens": 1767.6176470588234,
+    "mean_planner_output_tokens": 202.44117647058823,
+    "mean_synthesis_input_tokens": 7122.64,
+    "mean_synthesis_output_tokens": 440.92
+  },
+  "important_methodology_note": "Auxiliary semantic judge uses the same Nova family and is not treated as final human ground truth. Human review sheet must be completed for final reported semantic metrics."
+}

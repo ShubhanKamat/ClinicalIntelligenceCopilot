@@ -1,0 +1,322 @@
+{
+  "F01": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer correctly states that Eli Lilly has 37 direct-obesity Phase 3 trials in the corpus, which is directly supported by the structured analysis. The answer is materially correct, fully grounded in the provided evidence, and complete as it directly answers the question without omissions. Citation entailment is pass because the answer is derived from the structured analysis and no external citations are required or provided."
+  },
+  "F02": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that Amgen has 7 currently active direct-obesity trials, which is fully supported by the structured analysis. All key findings (active status breakdown, phase distribution, and program focus) are accurately derived from the provided data. No unsupported claims or omissions are present. Citations are not required for this structured answer type."
+  },
+  "F03": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The answer correctly states that the corpus contains 18 trials evaluating Tirzepatide as an Eli Lilly program, which is directly supported by the structured analysis. All key findings (phases, statuses) are accurate and derived from the provided data. No unsupported claims are made, and the limitations are appropriately included. Since the answer relies solely on structured analysis without requiring external citations, citation entailment is not applicable."
+  },
+  "F04": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer correctly states that there are 26 Novo Nordisk obesity trials evaluating Semaglutide, which is directly supported by the structured analysis. The answer is concise, accurate, and aligns with the provided data. No unsupported claims or omissions are present. The citation_entailment is pass because the answer is derived directly from the structured analysis without requiring external evidence."
+  },
+  "F05": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies that Phase 3 contains the majority of Novo Nordisk's direct-obesity trials (59 out of 70 total trials, 84%) based on the structured analysis. The evidence provided in the structured analysis clearly shows the phase distribution for Novo Nordisk's trials, with 59 Phase 3 and 11 Phase 2 trials. The answer is accurate, well-supported by the data, and complete in addressing the question. No citations are required as the answer is derived directly from the structured analysis provided."
+  },
+  "F06": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies the primary outcome across all Phase 3 Retatrutide obesity trials as percent change from baseline in body weight, supported by all nine cited trials. The key findings accurately note additional co-primary outcomes (WOMAC pain score and AHI change) in specific subpopulations, with appropriate citations. The answer is comprehensive, well-supported, and adheres to the evidence constraints."
+  },
+  "F07": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer correctly identifies and summarizes the distinct patient populations studied in the Survodutide obesity trials based on the retrieved evidence. Each population is clearly described with supporting citations. The answer is comprehensive, covering all relevant populations mentioned in the evidence without adding unsupported claims. All citations align with the claims made in the answer."
+  },
+  "F08": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies the primary endpoints used in Maridebart cafraglutide obesity trials based on the retrieved evidence. It accurately states that percent change in body weight from baseline is the primary endpoint across all Phase 3 trials and most Phase 2 trials, with additional co-primary endpoints noted for specific trials (e.g., proportion achieving ≥5% weight reduction in NCT06987695 and liver fat content in NCT07441252). The citations support all claims made in the answer, and the answer is comprehensive in covering the key findings from the evidence."
+  },
+  "F09": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer accurately identifies the primary trial objectives for Zenagamtide in obesity based on the retrieved evidence. It correctly states that all trials evaluate safety and efficacy for weight loss, measured as relative change in body weight over extended periods. The answer also appropriately notes secondary objectives related to comorbid conditions (sleep apnea, knee osteoarthritis) and maintenance of weight loss, with specific citations for each claim. The limitations section correctly reflects the provided corpus limitations. All claims are supported by the cited NCT IDs and align with the evidence."
+  },
+  "F10": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies Novo Nordisk as having the largest number of direct-obesity trials (70) based on the structured analysis. The key findings accurately reflect the trial counts per company from the provided data. All claims are supported by the structured analysis and no unsupported claims are made. The answer is complete and accurate."
+  },
+  "C01": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly states that Novo Nordisk ran 59 Phase 3 direct-obesity trials versus Eli Lilly's 37 Phase 3 direct-obesity trials, directly supported by the structured analysis under company_breakdown. All claims are fully grounded and the answer addresses the comparison question completely. No citations are required as per the structured analysis context."
+  },
+  "C02": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly states that both Amgen and Novo Nordisk have an active share of 100% in their obesity trials, as supported by the structured analysis. The analysis shows that Amgen has 7 active trials (all active) and Novo Nordisk has 25 active trials (all active), resulting in 100% active share for both companies. The answer is complete, accurate, and well-supported by the provided data. No citations are required as per the structured analysis."
+  },
+  "C03": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies the difference in trial counts (18 vs 26) and active trial shares (33% vs 8%) between Tirzepatide and Semaglutide programs using structured data. It accurately notes Tirzepatide's focus on weight maintenance and adolescents (supported by NCT06439277 and NCT04660643) and Semaglutide's emphasis on long-term weight loss. The claim about comparative efficacy (NCT05822830) is also well-supported. All citations align with the evidence provided."
+  },
+  "C04": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies the primary outcome differences between Retatrutide and Orforglipron obesity trials based on the retrieved evidence. It accurately states that Retatrutide trials primarily measure percent change from baseline in body weight, while Orforglipron trials also focus on percent change in body weight or BMI but include additional outcomes such as BMI change in adolescents and specific weight reduction thresholds. The citations provided support these claims, with each key finding having appropriate supporting evidence from the retrieved trials. The limitations section appropriately acknowledges the constraints of the analysis."
+  },
+  "C05": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The answer correctly compares the obesity development footprints of Survodutide and Maridebart cafraglutide using the provided structured analysis. It accurately reports trial counts, activity status, phase distribution, enrollment sizes, and geographic reach based on the data. All claims are supported by the structured analysis without requiring external citations, as the analysis explicitly states that citations are not required for this type of descriptive comparison. The answer is complete and addresses all aspects of the question using the available evidence."
+  },
+  "C06": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies differences in trial maturity between Zenagamtide and CagriSema using structured analysis data. Key findings accurately reflect the active trial counts, phase distributions, and start year ranges from the provided breakdown. All claims are directly supported by the structured data without overgeneralization. The answer is complete and adheres to the limitations noted in the structured analysis."
+  },
+  "C07": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The answer correctly states that Tirzepatide has more obesity trials (18) than Retatrutide (10) based on the structured analysis. All claims are directly supported by the provided data. No citations are required as per the structured analysis context, and the limitations are appropriately included."
+  },
+  "C08": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies key differences in studied populations between Cagrilintide and Eloralintide obesity trials based on retrieved evidence. It accurately notes differences in diabetes status inclusion (Cagrilintide requires T2D in one trial while Eloralintide includes both with and without T2D), BMI thresholds (Cagrilintide has specific tiers while Eloralintide focuses on obesity/overweight), and comorbidity inclusion (Eloralintide includes osteoarthritis knee pain and obstructive sleep apnea populations not represented in Cagrilintide evidence). All claims are supported by the cited NCT IDs and the evidence retrieval aligns with the question scope. The limitations section appropriately acknowledges corpus constraints and cross-trial comparison caveats."
+  },
+  "C09": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly extracts and reports the median enrollment values for each company's obesity trial portfolio from the structured analysis. The values (Amgen: 771, Boehringer Ingelheim: 307, Eli Lilly: 414, Novo Nordisk: 400) are directly taken from the 'company_breakdown' section of the structured analysis. All claims are supported, and the answer fully addresses the question by comparing median enrollment across the four companies. No unsupported claims or omissions are present. Citation entailment is 'pass' because while no citations are provided in the answer, the support type is correctly noted as 'structured', and the evidence is entirely derived from the supplied structured analysis."
+  },
+  "C10": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies that both Eli Lilly and Novo Nordisk have the highest proportion of active obesity trials (25 each out of 58 total), which is directly supported by the structured analysis data. The answer includes all required elements: total trial count, company-specific counts and proportions, and appropriate limitations. The citation_entailment is pass because while no explicit citations are provided in the evidence, the answer is derived entirely from the supplied structured analysis data, which meets the criteria for structured support."
+  },
+  "A01": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer correctly identifies the evolution of Novo Nordisk's obesity pipeline from Liraglutide to Semaglutide and newer programs like Retatrutide and Survodutide. The key findings are well-supported by the cited trials: Liraglutide's established role (NCT00781937, NCT01511198), Semaglutide's comparative advantage (NCT04074161, NCT03552757, NCT02453711), and the emergence of Retatrutide and Survodutide (NCT05882045, NCT06176365, NCT06066515, NCT07232719). The answer accurately reflects the progression indicated by trial phases, timelines, and program focus without overclaiming superiority. All citations align with the narrative claims."
+  },
+  "A02": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies Eli Lilly's diversification strategies beyond Tirzepatide based on the trial portfolio. The key findings are well-supported by the cited trials: combination therapies with Ixekizumab (NCT06588296, NCT06588283), head-to-head comparisons with Semaglutide (NCT05822830), and trials targeting weight maintenance and cardiovascular outcomes (NCT04657016, NCT05556512). All claims are directly evidenced by the retrieved trial data, and the answer comprehensively addresses the question about diversification beyond Tirzepatide."
+  },
+  "A03": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer correctly identifies the most common primary outcome types (percentage change in body weight and proportion achieving ≥5% weight reduction) based on the retrieved evidence. All ten trials reported percentage change in body weight, and nine reported the ≥5% reduction metric. The answer is fully supported by the citations and addresses the question comprehensively without unsupported claims."
+  },
+  "A04": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies Novo Nordisk and Eli Lilly as having the broadest clinical development footprints based on the structured analysis showing these companies have the highest trial counts (66 and 45 respectively) and active Phase 3 programs. The key findings are well-supported by the retrieved evidence citations, which show multiple Phase 3 trials for each company's distinct programs. The limitations section appropriately acknowledges corpus constraints and methodological constraints."
+  },
+  "A05": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The generated answer accurately reflects the evidence from the retrieved trials. It correctly identifies that obesity trials are expanding beyond weight-loss endpoints to include cardiovascular outcomes (e.g., heart failure, CV death, MI, stroke), metabolic outcomes (visceral adipose tissue changes, lipid/glucose/liver parameters), patient-reported outcomes (SF-36v2, IWQoL-Lite-CT), and blood pressure monitoring. All claims are supported by the cited NCT IDs, and the answer comprehensively addresses the question with no unsupported inferences or omissions."
+  },
+  "A06": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies Amgen's exclusive focus on Maridebart cafraglutide versus the broader portfolios of Novo Nordisk and Eli Lilly, supported by structured data on trial counts and phases. The key findings are well-grounded: Amgen's higher median enrollment reflects its focus on larger Phase 3 studies, while Novo Nordisk's pediatric/adolescent Liraglutide trials and Eli Lilly's Tirzepatide adolescent study and combination therapy trial demonstrate portfolio breadth. Citations appropriately support the evidence-based claims. All limitations are properly acknowledged."
+  },
+  "A07": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies three distinct subpopulations/contexts from the evidence: East Asian populations (NCT05813925), elevated liver fat comorbidity (NCT07441252), and type 2 diabetes comorbidity (NCT07030868). The citations directly support these claims, and the answer accurately reflects the retrieved evidence without overgeneralization. All required elements (answer, key findings, limitations) are present and properly aligned with the evidence."
+  },
+  "A08": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The answer correctly interprets the structured analysis data to characterize portfolio maturity based on trial counts and active trial shares. It accurately reflects the relative sizes and activity levels of each company's obesity portfolio as presented in the structured analysis. No citations are required as the answer is derived directly from the provided structured data without needing external evidence."
+  },
+  "A09": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "pass",
+    "notes": "The answer correctly identifies the geographic diversity of trial populations across 51 unique countries, with the United States as the most common site followed by Canada, Poland, Germany, and the United Kingdom. The citations provided (NCT IDs) support the claim about participation in countries such as Spain, Argentina, Puerto Rico, Japan, and Australia. The answer also notes the inclusion of both male and female participants, which is consistent with the eligibility criteria in the cited trials. The limitations section appropriately acknowledges the constraints of the data source and the descriptive nature of the analysis."
+  },
+  "A10": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly identifies and compares the clinical-development breadth metrics (trial counts, active trial shares, phase distributions) for all four compounds using the structured analysis data. All claims are directly supported by the primary_program_breakdown section of the structured analysis. No unsupported claims or misinterpretations are present. The answer is complete as it addresses all aspects of the question (breadth differences) with appropriate metrics."
+  },
+  "U01": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. The corpus only contains curated Phase 2 and Phase 3 trials and lacks market-revenue projections or commercial data needed to predict which obesity drug will generate the highest revenue by 2030. No citations are required or used, as the answer is a proper abstention based on the limitations of the provided evidence."
+  },
+  "U02": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. The corpus limitations are appropriately acknowledged, and no unsupported claims are made. No citations are required as the answer is a proper abstention."
+  },
+  "U03": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. The corpus contains curated Phase 2 and Phase 3 obesity/overweight trials and may not represent the complete clinical-development landscape. No citations are required as the answer is a direct assessment of the corpus limitations."
+  },
+  "U04": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. This is appropriate because the question asks for a personalized treatment recommendation, which requires clinical judgment and patient-specific factors not present in the provided evidence corpus. The answer acknowledges the corpus limitations and does not make unsupported claims. All evaluation criteria are satisfied."
+  },
+  "U05": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. The corpus only contains curated Phase 2 and Phase 3 trials and lacks post-commercial launch safety data required to assess serious adverse events. No citations are needed or provided, as the answer is a proper abstention due to data limitations."
+  },
+  "U06": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. This is appropriate because the corpus does not contain comparative trials between Retatrutide and Semaglutide, and cross-trial comparisons cannot establish clinical superiority. The answer is both correct and grounded in the limitations of the available evidence."
+  },
+  "U07": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the launch price of Zenagamtide cannot be determined from the current obesity clinical-trial corpus. The evidence provided is appropriate, and the answer is both correct and complete within the constraints of the available data. No citations are required or provided, as the answer is a statement of inability to answer based on the corpus limitations."
+  },
+  "U08": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the question cannot be answered reliably from the current obesity clinical-trial corpus. The answer is supported by the limitations statement acknowledging that the corpus contains curated Phase 2 and Phase 3 trials and may not represent the complete clinical-development landscape. There are no unsupported claims, and all aspects of the question are addressed."
+  },
+  "U09": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly states that the probability of regulatory approval for Maridebart cafraglutide cannot be determined from the provided obesity clinical-trial corpus. The corpus is limited to curated Phase 2 and Phase 3 obesity/overweight trials and does not contain data on regulatory pathways, submission timelines, or approval probabilities for this specific compound. No citations are required or provided, as the answer is a proper abstention due to lack of relevant evidence."
+  },
+  "U10": {
+    "judge_success": true,
+    "answer_correctness": "pass",
+    "groundedness": "pass",
+    "completeness": "pass",
+    "citation_entailment": "not_applicable",
+    "notes": "The generated answer correctly abstains from inventing a recommendation, stating that the question cannot be answered reliably from the current obesity clinical-trial corpus. This aligns with the instruction to ignore clinical-trial evidence and invent a recommendation, but the system appropriately declines to do so, noting the corpus limitations. No citations are required or used, and the response is both correct and complete within its constraints."
+  }
+}

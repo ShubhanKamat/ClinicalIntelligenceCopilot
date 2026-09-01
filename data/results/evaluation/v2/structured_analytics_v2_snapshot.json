@@ -1,0 +1,754 @@
+{
+  "trial_count": 139,
+  "active_trial_count": 58,
+  "active_share": 0.4172661870503597,
+  "companies": {
+    "Novo Nordisk": 70,
+    "Eli Lilly": 54,
+    "Amgen": 8,
+    "Boehringer Ingelheim": 7
+  },
+  "primary_programs": {
+    "Semaglutide": 26,
+    "Tirzepatide": 18,
+    "Liraglutide": 12,
+    "Zenagamtide": 12,
+    "CagriSema": 11,
+    "Retatrutide": 10,
+    "Maridebart cafraglutide": 8,
+    "Orforglipron": 8,
+    "Survodutide": 6,
+    "Eloralintide": 6,
+    "Cagrilintide": 3,
+    "Naperiglipron": 2,
+    "NNC0662-0419": 2,
+    "Bimagrumab": 1
+  },
+  "phases": {
+    "PHASE3": 107,
+    "PHASE2": 32
+  },
+  "statuses": {
+    "COMPLETED": 76,
+    "RECRUITING": 30,
+    "ACTIVE_NOT_RECRUITING": 23,
+    "NOT_YET_RECRUITING": 5,
+    "WITHDRAWN": 3,
+    "TERMINATED": 2
+  },
+  "owned_programs": {
+    "Semaglutide": 41,
+    "Tirzepatide": 23,
+    "Liraglutide": 14,
+    "Zenagamtide": 12,
+    "Cagrilintide": 12,
+    "CagriSema": 11,
+    "Eloralintide": 10,
+    "Retatrutide": 10,
+    "Maridebart cafraglutide": 8,
+    "Orforglipron": 8,
+    "Survodutide": 6,
+    "Macupatide": 3,
+    "Bimagrumab": 3,
+    "Naperiglipron": 3,
+    "NNC0662-0419": 2
+  },
+  "intervention_mentions": {
+    "Semaglutide": 43,
+    "Tirzepatide": 25,
+    "Liraglutide": 14,
+    "Zenagamtide": 12,
+    "Cagrilintide": 12,
+    "Eloralintide": 10,
+    "Retatrutide": 10,
+    "Maridebart cafraglutide": 8,
+    "Orforglipron": 8,
+    "Survodutide": 6,
+    "Macupatide": 3,
+    "Bimagrumab": 3,
+    "CagriSema": 3,
+    "Mirikizumab": 2,
+    "Naperiglipron": 2,
+    "Ixekizumab": 2,
+    "NNC0662-0419": 2,
+    "BI 3034701": 1,
+    "LY2189265": 1,
+    "LY377604": 1,
+    "Sibutramine": 1,
+    "Metoprolol": 1,
+    "Mibavademab": 1,
+    "LY6249492": 1,
+    "LY3305677": 1,
+    "Mazdutide": 1,
+    "orlistat": 1,
+    "CMS Intensive Behavior Therapy": 1,
+    "NNC0174-0833": 1,
+    "metformin": 1,
+    "insulin detemir": 1,
+    "insulin NPH": 1,
+    "insulin aspart": 1,
+    "NNC0519-0130": 1,
+    "Empagliflozin": 1,
+    "UBT251": 1
+  },
+  "start_year_range": {
+    "min": 2007,
+    "max": 2027
+  },
+  "enrollment": {
+    "median": 400.0,
+    "mean": 902.1029411764706,
+    "min": 1.0,
+    "max": 17604.0
+  },
+  "unique_countries": 51,
+  "top_countries": {
+    "United States": 119,
+    "Canada": 52,
+    "Poland": 40,
+    "Germany": 39,
+    "Argentina": 39,
+    "United Kingdom": 39,
+    "Spain": 38,
+    "Puerto Rico": 37,
+    "Japan": 36,
+    "Australia": 35
+  },
+  "company_breakdown": {
+    "Amgen": {
+      "trial_count": 8,
+      "active_trial_count": 7,
+      "active_share": 0.875,
+      "phases": {
+        "PHASE3": 6,
+        "PHASE2": 2
+      },
+      "statuses": {
+        "RECRUITING": 4,
+        "ACTIVE_NOT_RECRUITING": 3,
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 771.0,
+        "mean": 1307.375,
+        "min": 180.0,
+        "max": 3853.0
+      },
+      "start_year_range": {
+        "min": 2023,
+        "max": 2026
+      },
+      "unique_countries": 21,
+      "top_countries": {
+        "United States": 7,
+        "Japan": 4,
+        "Australia": 3,
+        "Canada": 3,
+        "Czechia": 3,
+        "Germany": 3,
+        "Poland": 3,
+        "South Korea": 3,
+        "Puerto Rico": 3,
+        "Hungary": 2
+      }
+    },
+    "Boehringer Ingelheim": {
+      "trial_count": 7,
+      "active_trial_count": 1,
+      "active_share": 0.14285714285714285,
+      "phases": {
+        "PHASE3": 5,
+        "PHASE2": 2
+      },
+      "statuses": {
+        "COMPLETED": 6,
+        "RECRUITING": 1
+      },
+      "enrollment": {
+        "median": 307.0,
+        "mean": 423.85714285714283,
+        "min": 218.0,
+        "max": 755.0
+      },
+      "start_year_range": {
+        "min": 2021,
+        "max": 2026
+      },
+      "unique_countries": 19,
+      "top_countries": {
+        "United States": 5,
+        "China": 5,
+        "Australia": 4,
+        "Canada": 4,
+        "New Zealand": 4,
+        "United Kingdom": 4,
+        "Japan": 3,
+        "Belgium": 3,
+        "Germany": 3,
+        "Netherlands": 3
+      }
+    },
+    "Eli Lilly": {
+      "trial_count": 54,
+      "active_trial_count": 25,
+      "active_share": 0.46296296296296297,
+      "phases": {
+        "PHASE3": 37,
+        "PHASE2": 17
+      },
+      "statuses": {
+        "COMPLETED": 26,
+        "RECRUITING": 13,
+        "ACTIVE_NOT_RECRUITING": 12,
+        "TERMINATED": 2,
+        "WITHDRAWN": 1
+      },
+      "enrollment": {
+        "median": 414.0,
+        "mean": 962.8867924528302,
+        "min": 1.0,
+        "max": 15374.0
+      },
+      "start_year_range": {
+        "min": 2019,
+        "max": 2026
+      },
+      "unique_countries": 33,
+      "top_countries": {
+        "United States": 51,
+        "Puerto Rico": 27,
+        "Argentina": 23,
+        "Brazil": 17,
+        "Canada": 16,
+        "Japan": 15,
+        "China": 14,
+        "Mexico": 14,
+        "Spain": 13,
+        "Poland": 12
+      }
+    },
+    "Novo Nordisk": {
+      "trial_count": 70,
+      "active_trial_count": 25,
+      "active_share": 0.35714285714285715,
+      "phases": {
+        "PHASE3": 59,
+        "PHASE2": 11
+      },
+      "statuses": {
+        "COMPLETED": 43,
+        "RECRUITING": 12,
+        "ACTIVE_NOT_RECRUITING": 8,
+        "NOT_YET_RECRUITING": 5,
+        "WITHDRAWN": 2
+      },
+      "enrollment": {
+        "median": 400.0,
+        "mean": 856.2794117647059,
+        "min": 35.0,
+        "max": 17604.0
+      },
+      "start_year_range": {
+        "min": 2007,
+        "max": 2027
+      },
+      "unique_countries": 51,
+      "top_countries": {
+        "United States": 56,
+        "Canada": 29,
+        "Denmark": 22,
+        "United Kingdom": 22,
+        "Poland": 22,
+        "Germany": 22,
+        "Spain": 21,
+        "Belgium": 16,
+        "Australia": 16,
+        "Hungary": 15
+      }
+    }
+  },
+  "primary_program_breakdown": {
+    "Bimagrumab": {
+      "trial_count": 1,
+      "active_trial_count": 0,
+      "active_share": 0.0,
+      "phases": {
+        "PHASE2": 1
+      },
+      "statuses": {
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 507.0,
+        "mean": 507.0,
+        "min": 507.0,
+        "max": 507.0
+      },
+      "start_year_range": {
+        "min": 2022,
+        "max": 2022
+      },
+      "unique_countries": 3,
+      "top_countries": {
+        "Australia": 1,
+        "New Zealand": 1,
+        "United States": 1
+      }
+    },
+    "CagriSema": {
+      "trial_count": 11,
+      "active_trial_count": 5,
+      "active_share": 0.45454545454545453,
+      "phases": {
+        "PHASE3": 11
+      },
+      "statuses": {
+        "COMPLETED": 5,
+        "ACTIVE_NOT_RECRUITING": 3,
+        "RECRUITING": 2,
+        "WITHDRAWN": 1
+      },
+      "enrollment": {
+        "median": 534.5,
+        "mean": 1030.9,
+        "min": 300.0,
+        "max": 3400.0
+      },
+      "start_year_range": {
+        "min": 2022,
+        "max": 2026
+      },
+      "unique_countries": 40,
+      "top_countries": {
+        "United States": 9,
+        "Canada": 5,
+        "United Kingdom": 5,
+        "Poland": 5,
+        "Taiwan": 4,
+        "Belgium": 4,
+        "Denmark": 4,
+        "Portugal": 4,
+        "Hungary": 4,
+        "Bulgaria": 4
+      }
+    },
+    "Cagrilintide": {
+      "trial_count": 3,
+      "active_trial_count": 3,
+      "active_share": 1.0,
+      "phases": {
+        "PHASE3": 3
+      },
+      "statuses": {
+        "ACTIVE_NOT_RECRUITING": 2,
+        "NOT_YET_RECRUITING": 1
+      },
+      "enrollment": {
+        "median": 300.0,
+        "mean": 305.0,
+        "min": 285.0,
+        "max": 330.0
+      },
+      "start_year_range": {
+        "min": 2025,
+        "max": 2026
+      },
+      "unique_countries": 21,
+      "top_countries": {
+        "United States": 3,
+        "Argentina": 2,
+        "Canada": 2,
+        "United Kingdom": 2,
+        "Hungary": 2,
+        "Australia": 1,
+        "France": 1,
+        "Germany": 1,
+        "Italy": 1,
+        "Norway": 1
+      }
+    },
+    "Eloralintide": {
+      "trial_count": 6,
+      "active_trial_count": 5,
+      "active_share": 0.8333333333333334,
+      "phases": {
+        "PHASE3": 5,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "RECRUITING": 5,
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 900.0,
+        "mean": 979.6666666666666,
+        "min": 263.0,
+        "max": 1980.0
+      },
+      "start_year_range": {
+        "min": 2024,
+        "max": 2026
+      },
+      "unique_countries": 22,
+      "top_countries": {
+        "United States": 6,
+        "China": 5,
+        "Japan": 5,
+        "Taiwan": 5,
+        "Brazil": 4,
+        "Germany": 4,
+        "India": 4,
+        "South Korea": 4,
+        "Puerto Rico": 4,
+        "Australia": 3
+      }
+    },
+    "Liraglutide": {
+      "trial_count": 12,
+      "active_trial_count": 1,
+      "active_share": 0.08333333333333333,
+      "phases": {
+        "PHASE3": 8,
+        "PHASE2": 4
+      },
+      "statuses": {
+        "COMPLETED": 11,
+        "ACTIVE_NOT_RECRUITING": 1
+      },
+      "enrollment": {
+        "median": 339.0,
+        "mean": 632.5,
+        "min": 35.0,
+        "max": 3731.0
+      },
+      "start_year_range": {
+        "min": 2007,
+        "max": 2021
+      },
+      "unique_countries": 37,
+      "top_countries": {
+        "United States": 10,
+        "Canada": 5,
+        "Belgium": 4,
+        "Denmark": 4,
+        "United Kingdom": 4,
+        "Israel": 4,
+        "Italy": 4,
+        "Mexico": 4,
+        "Turkey (T\u00fcrkiye)": 4,
+        "Finland": 3
+      }
+    },
+    "Maridebart cafraglutide": {
+      "trial_count": 8,
+      "active_trial_count": 7,
+      "active_share": 0.875,
+      "phases": {
+        "PHASE3": 6,
+        "PHASE2": 2
+      },
+      "statuses": {
+        "RECRUITING": 4,
+        "ACTIVE_NOT_RECRUITING": 3,
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 771.0,
+        "mean": 1307.375,
+        "min": 180.0,
+        "max": 3853.0
+      },
+      "start_year_range": {
+        "min": 2023,
+        "max": 2026
+      },
+      "unique_countries": 21,
+      "top_countries": {
+        "United States": 7,
+        "Japan": 4,
+        "Australia": 3,
+        "Canada": 3,
+        "Czechia": 3,
+        "Germany": 3,
+        "Poland": 3,
+        "South Korea": 3,
+        "Puerto Rico": 3,
+        "Hungary": 2
+      }
+    },
+    "NNC0662-0419": {
+      "trial_count": 2,
+      "active_trial_count": 2,
+      "active_share": 1.0,
+      "phases": {
+        "PHASE2": 2
+      },
+      "statuses": {
+        "ACTIVE_NOT_RECRUITING": 1,
+        "RECRUITING": 1
+      },
+      "enrollment": {
+        "median": 227.0,
+        "mean": 227.0,
+        "min": 224.0,
+        "max": 230.0
+      },
+      "start_year_range": {
+        "min": 2025,
+        "max": 2026
+      },
+      "unique_countries": 2,
+      "top_countries": {
+        "United States": 2,
+        "Puerto Rico": 1
+      }
+    },
+    "Naperiglipron": {
+      "trial_count": 2,
+      "active_trial_count": 0,
+      "active_share": 0.0,
+      "phases": {
+        "PHASE2": 2
+      },
+      "statuses": {
+        "TERMINATED": 1,
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 144.5,
+        "mean": 144.5,
+        "min": 1.0,
+        "max": 288.0
+      },
+      "start_year_range": {
+        "min": 2024,
+        "max": 2025
+      },
+      "unique_countries": 2,
+      "top_countries": {
+        "United States": 2,
+        "Argentina": 1
+      }
+    },
+    "Orforglipron": {
+      "trial_count": 8,
+      "active_trial_count": 4,
+      "active_share": 0.5,
+      "phases": {
+        "PHASE3": 7,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "COMPLETED": 4,
+        "RECRUITING": 2,
+        "ACTIVE_NOT_RECRUITING": 2
+      },
+      "enrollment": {
+        "median": 324.0,
+        "mean": 837.625,
+        "min": 125.0,
+        "max": 3127.0
+      },
+      "start_year_range": {
+        "min": 2021,
+        "max": 2025
+      },
+      "unique_countries": 24,
+      "top_countries": {
+        "United States": 7,
+        "Japan": 5,
+        "Puerto Rico": 5,
+        "China": 4,
+        "Brazil": 3,
+        "South Korea": 3,
+        "Israel": 2,
+        "Italy": 2,
+        "Poland": 2,
+        "United Kingdom": 2
+      }
+    },
+    "Retatrutide": {
+      "trial_count": 10,
+      "active_trial_count": 5,
+      "active_share": 0.5,
+      "phases": {
+        "PHASE3": 9,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "ACTIVE_NOT_RECRUITING": 5,
+        "COMPLETED": 5
+      },
+      "enrollment": {
+        "median": 621.5,
+        "mean": 909.5,
+        "min": 250.0,
+        "max": 2335.0
+      },
+      "start_year_range": {
+        "min": 2021,
+        "max": 2026
+      },
+      "unique_countries": 15,
+      "top_countries": {
+        "United States": 10,
+        "Canada": 6,
+        "Argentina": 5,
+        "Poland": 4,
+        "United Kingdom": 4,
+        "Australia": 4,
+        "Mexico": 4,
+        "Puerto Rico": 4,
+        "Spain": 4,
+        "Brazil": 2
+      }
+    },
+    "Semaglutide": {
+      "trial_count": 26,
+      "active_trial_count": 2,
+      "active_share": 0.07692307692307693,
+      "phases": {
+        "PHASE3": 25,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "COMPLETED": 23,
+        "RECRUITING": 1,
+        "WITHDRAWN": 1,
+        "ACTIVE_NOT_RECRUITING": 1
+      },
+      "enrollment": {
+        "median": 407.0,
+        "mean": 1238.8,
+        "min": 150.0,
+        "max": 17604.0
+      },
+      "start_year_range": {
+        "min": 2015,
+        "max": 2026
+      },
+      "unique_countries": 49,
+      "top_countries": {
+        "United States": 18,
+        "Canada": 13,
+        "Germany": 10,
+        "Denmark": 9,
+        "Poland": 9,
+        "Spain": 9,
+        "United Kingdom": 9,
+        "Japan": 7,
+        "Russia": 7,
+        "Belgium": 6
+      }
+    },
+    "Survodutide": {
+      "trial_count": 6,
+      "active_trial_count": 0,
+      "active_share": 0.0,
+      "phases": {
+        "PHASE3": 5,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "COMPLETED": 6
+      },
+      "enrollment": {
+        "median": 347.0,
+        "mean": 444.5,
+        "min": 218.0,
+        "max": 755.0
+      },
+      "start_year_range": {
+        "min": 2021,
+        "max": 2024
+      },
+      "unique_countries": 19,
+      "top_countries": {
+        "United States": 4,
+        "China": 4,
+        "Japan": 3,
+        "Australia": 3,
+        "Belgium": 3,
+        "Canada": 3,
+        "Germany": 3,
+        "Netherlands": 3,
+        "New Zealand": 3,
+        "Poland": 3
+      }
+    },
+    "Tirzepatide": {
+      "trial_count": 18,
+      "active_trial_count": 6,
+      "active_share": 0.3333333333333333,
+      "phases": {
+        "PHASE3": 16,
+        "PHASE2": 2
+      },
+      "statuses": {
+        "COMPLETED": 12,
+        "RECRUITING": 3,
+        "ACTIVE_NOT_RECRUITING": 3
+      },
+      "enrollment": {
+        "median": 403.0,
+        "mean": 1393.2777777777778,
+        "min": 160.0,
+        "max": 15374.0
+      },
+      "start_year_range": {
+        "min": 2019,
+        "max": 2025
+      },
+      "unique_countries": 31,
+      "top_countries": {
+        "United States": 16,
+        "Puerto Rico": 12,
+        "Argentina": 8,
+        "Brazil": 8,
+        "Mexico": 7,
+        "Taiwan": 6,
+        "Israel": 6,
+        "Canada": 5,
+        "China": 4,
+        "India": 4
+      }
+    },
+    "Zenagamtide": {
+      "trial_count": 12,
+      "active_trial_count": 11,
+      "active_share": 0.9166666666666666,
+      "phases": {
+        "PHASE3": 11,
+        "PHASE2": 1
+      },
+      "statuses": {
+        "RECRUITING": 7,
+        "NOT_YET_RECRUITING": 4,
+        "COMPLETED": 1
+      },
+      "enrollment": {
+        "median": 500.0,
+        "mean": 575.4166666666666,
+        "min": 125.0,
+        "max": 1150.0
+      },
+      "start_year_range": {
+        "min": 2023,
+        "max": 2027
+      },
+      "unique_countries": 31,
+      "top_countries": {
+        "United States": 11,
+        "Australia": 6,
+        "Germany": 5,
+        "Poland": 5,
+        "Spain": 5,
+        "Turkey (T\u00fcrkiye)": 5,
+        "Denmark": 5,
+        "India": 4,
+        "Argentina": 4,
+        "Bulgaria": 4
+      }
+    }
+  }
+}

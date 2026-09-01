@@ -1,0 +1,12 @@
+boto3==1.43.83
+fastapi==0.141.1
+mangum==0.22.0
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1
+pydantic==2.13.5
+rank-bm25==0.2.2
+sentence-transformers==6.0.0
+torch==2.13.0
+uvicorn==0.52.4
+botocore[crt]==1.43.83

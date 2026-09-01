@@ -1,0 +1,42 @@
+{
+  "pipeline_success_rate": 1.0,
+  "route_accuracy": 0.8,
+  "abstention": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "retrieval": {
+    "question_count": 19,
+    "recall_at_5": 0.2041353383458647,
+    "recall_at_10": 0.36986215538847117,
+    "hit_at_5": 0.42105263157894735,
+    "hit_at_10": 0.5789473684210527,
+    "mrr": 0.3510860484544695
+  },
+  "grounding": {
+    "citation_validity": 1.0,
+    "citation_coverage": 1.0,
+    "validator_pass_rate": 1.0
+  },
+  "reliability": {
+    "synthesis_repair_rate": 0.125,
+    "median_latency_ms": 4073.75,
+    "p95_latency_ms": 11053.139999999972
+  },
+  "auxiliary_judge": {
+    "answer_correctness": {
+      "pass": 1.0
+    },
+    "groundedness": {
+      "pass": 1.0
+    },
+    "completeness": {
+      "pass": 1.0
+    },
+    "citation_entailment": {
+      "pass": 0.6,
+      "not_applicable": 0.4
+    }
+  }
+}

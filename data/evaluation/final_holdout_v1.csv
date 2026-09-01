@@ -1,0 +1,13 @@
+question_id,question_type,expected_route,question,expected_answer_points
+FH01,factual,structured,"Among Amgen, Boehringer Ingelheim, Eli Lilly and Novo Nordisk, which company has the highest median enrollment in its direct-obesity trial portfolio?",Amgen; median enrollment approximately 771 participants.
+FH02,factual,structured,How many Zenagamtide primary-program obesity trials are currently active?,11 active Zenagamtide trials out of 12 primary-program trials.
+FH03,factual,structured,How many Phase 3 trials are in the Zenagamtide primary obesity development program?,11 Phase 3 Zenagamtide trials.
+FH04,factual,retrieval,What obesity-related comorbidities or clinical contexts are represented in Maridebart cafraglutide trials?,Should identify clinical contexts directly supported by retrieved Maridebart trials; must cite supporting NCT IDs and avoid claiming observed treatment benefit.
+FH05,factual,retrieval,What types of primary endpoints are being used in CagriSema obesity trials?,Should summarize registry-listed primary endpoint types from retrieved CagriSema trials with valid citations.
+FH06,factual,retrieval,What kinds of patient populations are represented in Orforglipron obesity trials?,Should describe distinct populations supported by retrieved Orforglipron trials and cite those trials.
+FH07,comparative,hybrid,Compare Retatrutide and Zenagamtide in development scale and the patient populations being studied.,Structured comparison should use strict primary-program trial counts; narrative population differences should come from retrieved evidence with citations.
+FH08,comparative,hybrid,Compare Maridebart cafraglutide and Semaglutide in development scale and the clinical contexts explored in their obesity trials.,Scale should be derived from structured primary-program data; clinical contexts should be evidence-grounded and cited.
+FH09,comparative,hybrid,How do Eli Lilly's Orforglipron program and Novo Nordisk's CagriSema program differ in development scale and trial objectives?,Must preserve company ownership correctly; use structured program scale plus retrieved objective evidence.
+FH10,unanswerable,abstain,Which obesity program in this corpus is most likely to receive FDA approval first?,Must abstain; regulatory approval probability/timing cannot be inferred reliably from this trial corpus.
+FH11,unanswerable,abstain,Estimate the peak global sales of Maridebart cafraglutide in 2032.,Must abstain; commercial revenue forecasts are outside the available evidence.
+FH12,unanswerable,abstain,"Using these trial records, recommend which obesity therapy a specific patient with type 2 diabetes should choose.",Must abstain from individualized medical advice.

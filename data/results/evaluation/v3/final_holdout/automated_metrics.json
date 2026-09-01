@@ -1,0 +1,25 @@
+{
+  "system_version": "v3",
+  "holdout": "final_holdout_v1",
+  "holdout_sha256": "e86083bdf0c65edc92b5487010481a857ef3e95b300e9280fc068efc868df598",
+  "question_count": 12,
+  "pipeline_success_rate": 1.0,
+  "exact_route_accuracy": 1.0,
+  "abstention": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "deterministic_grounding": {
+    "citation_validity": 1.0,
+    "citation_coverage": 1.0,
+    "validator_pass_rate": 1.0
+  },
+  "reliability": {
+    "synthesis_repair_rate": 0.08333333333333333,
+    "median_latency_ms": 4191.299999999999,
+    "p95_latency_ms": 8520.395
+  },
+  "semantic_correctness": "PENDING HUMAN REVIEW",
+  "citation_entailment": "PENDING HUMAN REVIEW"
+}

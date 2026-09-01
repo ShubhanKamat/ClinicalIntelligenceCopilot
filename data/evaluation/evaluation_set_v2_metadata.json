@@ -1,0 +1,12 @@
+{
+  "evaluation_version": "v2-pre-retrieval",
+  "question_count": 40,
+  "question_set_sha256": "20f55b2436f975d43f17c594f47eb04e25f1c8cf3402498890ced730da170075",
+  "source_question_file": "C:\\Users\\shubh\\Desktop\\Projects\\Copilot\\data\\evaluation\\evaluation_questions.csv",
+  "corpus_file": "C:\\Users\\shubh\\Desktop\\Projects\\Copilot\\data\\processed\\obesity_development_core_enriched.parquet",
+  "corpus_trial_count": 139,
+  "clinicaltrials_snapshot_date": "2026-08-26",
+  "candidate_pool_max_per_question": 12,
+  "gold_definition": "Trial documents manually judged necessary or strongly supportive for answering a retrieval or hybrid evaluation question.",
+  "scope_definition": "All corpus trial records structurally relevant to the question. Scope documents are not automatically gold retrieval documents."
+}

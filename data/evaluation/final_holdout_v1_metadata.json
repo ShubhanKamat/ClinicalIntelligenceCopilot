@@ -1,0 +1,14 @@
+{
+  "name": "final_holdout_v1",
+  "question_count": 12,
+  "sha256": "e86083bdf0c65edc92b5487010481a857ef3e95b300e9280fc068efc868df598",
+  "system_version": "v3",
+  "original_40_question_benchmark": false,
+  "purpose": "Fresh post-hardening final holdout. Do not tune system against failures.",
+  "route_counts": {
+    "structured": 3,
+    "retrieval": 3,
+    "hybrid": 3,
+    "abstain": 3
+  }
+}

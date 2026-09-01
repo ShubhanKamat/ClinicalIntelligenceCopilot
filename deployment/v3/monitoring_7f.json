@@ -1,0 +1,147 @@
+{
+  "system": "Evidence-Grounded Obesity Drug Competitive Intelligence Copilot",
+  "version": "v3",
+  "deployment_stage": "7F",
+  "monitoring_status": "COMPLETE",
+  "region": "us-east-1",
+  "cloudwatch_log_group": "/ecs/obesity-ci-copilot-v3",
+  "log_retention_days": 7,
+  "custom_metric_namespace": "ObesityCICopilot/V3",
+  "dashboard": "obesity-ci-copilot-v3",
+  "metric_filters": [
+    {
+      "filter_name": "obesity-ci-v3-request-count",
+      "filter_pattern": "{ $.event = \"request_completed\" }",
+      "metric_name": "RequestCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-api-5xx",
+      "filter_pattern": "{ $.event = \"request_completed\" && $.status_code >= 500 }",
+      "metric_name": "Api5xxCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-request-latency",
+      "filter_pattern": "{ $.event = \"request_completed\" && $.latency_ms = * }",
+      "metric_name": "RequestLatencyMs"
+    },
+    {
+      "filter_name": "obesity-ci-v3-copilot-failure",
+      "filter_pattern": "{ $.event = \"copilot_failure\" }",
+      "metric_name": "CopilotFailureCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-copilot-answer",
+      "filter_pattern": "{ $.event = \"copilot_answer\" }",
+      "metric_name": "CopilotAnswerCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-route",
+      "filter_pattern": "{ $.event = \"copilot_answer\" && $.route = * }",
+      "metric_name": "RouteCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-repair",
+      "filter_pattern": "{ $.event = \"copilot_answer\" && $.repaired = true }",
+      "metric_name": "SynthesisRepairCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-abstention",
+      "filter_pattern": "{ $.event = \"copilot_answer\" && $.route = \"abstain\" }",
+      "metric_name": "AbstentionCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-citation-validity-failure",
+      "filter_pattern": "{ $.event = \"copilot_answer\" && $.citation_validity < 1 }",
+      "metric_name": "CitationValidityFailureCount"
+    },
+    {
+      "filter_name": "obesity-ci-v3-citation-coverage-failure",
+      "filter_pattern": "{ $.event = \"copilot_answer\" && $.citation_coverage < 1 }",
+      "metric_name": "CitationCoverageFailureCount"
+    }
+  ],
+  "metric_filter_validation": [
+    {
+      "filter_name": "obesity-ci-v3-request-count",
+      "pattern": "{ $.event = \"request_completed\" }",
+      "test_matches": 2
+    },
+    {
+      "filter_name": "obesity-ci-v3-api-5xx",
+      "pattern": "{ $.event = \"request_completed\" && $.status_code >= 500 }",
+      "test_matches": 1
+    },
+    {
+      "filter_name": "obesity-ci-v3-request-latency",
+      "pattern": "{ $.event = \"request_completed\" && $.latency_ms = * }",
+      "test_matches": 2
+    },
+    {
+      "filter_name": "obesity-ci-v3-copilot-failure",
+      "pattern": "{ $.event = \"copilot_failure\" }",
+      "test_matches": 1
+    },
+    {
+      "filter_name": "obesity-ci-v3-copilot-answer",
+      "pattern": "{ $.event = \"copilot_answer\" }",
+      "test_matches": 2
+    },
+    {
+      "filter_name": "obesity-ci-v3-route",
+      "pattern": "{ $.event = \"copilot_answer\" && $.route = * }",
+      "test_matches": 2
+    },
+    {
+      "filter_name": "obesity-ci-v3-repair",
+      "pattern": "{ $.event = \"copilot_answer\" && $.repaired = true }",
+      "test_matches": 0
+    },
+    {
+      "filter_name": "obesity-ci-v3-abstention",
+      "pattern": "{ $.event = \"copilot_answer\" && $.route = \"abstain\" }",
+      "test_matches": 1
+    },
+    {
+      "filter_name": "obesity-ci-v3-citation-validity-failure",
+      "pattern": "{ $.event = \"copilot_answer\" && $.citation_validity < 1 }",
+      "test_matches": 1
+    },
+    {
+      "filter_name": "obesity-ci-v3-citation-coverage-failure",
+      "pattern": "{ $.event = \"copilot_answer\" && $.citation_coverage < 1 }",
+      "test_matches": 1
+    }
+  ],
+  "alarms": [
+    "obesity-ci-v3-api-5xx",
+    "obesity-ci-v3-copilot-failure",
+    "obesity-ci-v3-high-latency",
+    "obesity-ci-v3-ecs-high-cpu",
+    "obesity-ci-v3-ecs-high-memory"
+  ],
+  "alarm_notifications": "No notification actions configured; alarms are CloudWatch state alarms.",
+  "ecs_monitoring": {
+    "cluster": "obesity-ci-copilot-v3",
+    "service": "obesity-ci-copilot-v3",
+    "cpu_metric": "AWS/ECS CPUUtilization",
+    "memory_metric": "AWS/ECS MemoryUtilization",
+    "desired_count_after_setup": 0
+  },
+  "application_metrics": [
+    "RequestCount",
+    "Api5xxCount",
+    "RequestLatencyMs",
+    "CopilotFailureCount",
+    "CopilotAnswerCount",
+    "RouteCount",
+    "SynthesisRepairCount",
+    "AbstentionCount",
+    "CitationValidityFailureCount",
+    "CitationCoverageFailureCount"
+  ],
+  "notes": [
+    "CloudWatch Logs metric filters emit metrics only for log events arriving after filter creation; historical logs are not backfilled.",
+    "Fargate CPU and memory metrics emit while the service is running.",
+    "TreatMissingData is set to notBreaching so the normally stopped demo service does not generate false alarms."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "log_group": "/ecs/obesity-ci-copilot-v3",
+  "streams_found": 3,
+  "events_found": 68,
+  "copilot_failure_logged": true,
+  "copilot_answer_logged": false,
+  "bedrock_error_002": true,
+  "runtime_status": "ACCOUNT_BLOCKED_ERROR_002",
+  "stage_7e_complete": true,
+  "interesting_events": [
+    {
+      "timestamp": 1788119801560,
+      "stream": "copilot/copilot/1a6ba2f1dc5b48c99478e05556b71b4e",
+      "message": "{\"event\": \"request_completed\", \"service\": \"obesity-ci-copilot\", \"version\": \"v3\", \"request_id\": \"0c3ca9ba-ce4b-4fa7-becd-7b1444e8b664\", \"method\": \"GET\", \"path\": \"/health\", \"status_code\": 200, \"latency_ms\": 1.76}"
+    },
+    {
+      "timestamp": 1788119810327,
+      "stream": "copilot/copilot/1a6ba2f1dc5b48c99478e05556b71b4e",
+      "message": "{\"event\": \"copilot_failure\", \"service\": \"obesity-ci-copilot\", \"version\": \"v3\", \"question\": \"How many currently active direct-obesity trials does Amgen have?\", \"error_type\": \"ValidationException\", \"error\": \"An error occurred (ValidationException) when calling the Converse operation: Error 002: Access to Bedrock models is not allowed for this account\"}"
+    },
+    {
+      "timestamp": 1788119810327,
+      "stream": "copilot/copilot/1a6ba2f1dc5b48c99478e05556b71b4e",
+      "message": "{\"event\": \"request_completed\", \"service\": \"obesity-ci-copilot\", \"version\": \"v3\", \"request_id\": \"ea9d8e86-9380-41f6-b8cd-b8eaa2704594\", \"method\": \"POST\", \"path\": \"/ask\", \"status_code\": 500, \"latency_ms\": 8398.03}"
+    }
+  ]
+}

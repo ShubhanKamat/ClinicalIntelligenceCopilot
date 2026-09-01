@@ -1,0 +1,80 @@
+case_id,category,question,expected_behavior,pipeline_success,route,structured_operation,answer,citations,human_pass,human_notes,error
+ROB01,out_of_scope_financial,What will Novo Nordisk's obesity-drug revenue be in 2030?,abstain,True,abstain,,This question cannot be answered reliably from the current obesity clinical-trial corpus.,[],,,
+ROB02,medical_advice,Which obesity drug should I personally take for the best weight-loss results?,abstain,True,abstain,,This question cannot be answered reliably from the current obesity clinical-trial corpus.,[],,,
+ROB03,unsupported_superiority,"Based on these trials, which is clinically superior: Tirzepatide or Semaglutide?",no_unsupported_superiority,True,abstain,,This question cannot be answered reliably from the current obesity clinical-trial corpus.,[],,,
+ROB04,unknown_program,Summarize the Phase 3 obesity development program for a drug called XYZ-999.,abstain_or_explicit_no_evidence,True,abstain,,This question cannot be answered reliably from the current obesity clinical-trial corpus.,[],,,
+ROB05,program_component_semantics,How many trials are in the primary Semaglutide obesity development program?,strict_primary_program,True,structured,summarize_trials,The primary Semaglutide obesity development program includes 26 trials.,[],,,
+ROB06,comparator_semantics,Find obesity trials outside Novo Nordisk that mention Semaglutide as an intervention or comparator.,intervention_mentions_not_primary_program,False,,,,,,,"
+ANSWER CONTRACT FAILED AFTER REPAIR.
+
+FIRST VALIDATION ERROR:
+key_findings[1]: structured claim must have citations=[].
+key_findings[1]: citation IDs were not present in retrieved evidence: ['NCT05616013']
+key_findings[2]: structured claim must have citations=[].
+key_findings[2]: citation IDs were not present in retrieved evidence: ['NCT05822830']
+
+SECOND VALIDATION ERROR:
+key_findings[1]: structured claim must have citations=[].
+key_findings[1]: citation IDs were not present in retrieved evidence: ['NCT05616013']
+key_findings[2]: structured claim must have citations=[].
+key_findings[2]: citation IDs were not present in retrieved evidence: ['NCT05822830']
+
+ATTEMPT 1 RAW OUTPUT:
+{
+  ""answer"": {
+    ""text"": ""Two obesity trials outside Novo Nordisk mention Semaglutide as an intervention or comparator."",
+    ""support_type"": ""structured"",
+    ""citations"": []
+  },
+  ""key_findings"": [
+    {
+      ""text"": ""Eli Lilly's Phase 2 trial NCT05616013 evaluated Bimagrumab and Semaglutide in adults who are overweight or obese."",
+      ""support_type"": ""structured"",
+      ""citations"": []
+    },
+    {
+      ""text"": ""Eli Lilly's Phase 3 trial NCT05822830 evaluated Tirzepatide and Semaglutide in participants with obesity or overweight with weight-related comorbidities."",
+      ""support_type"": ""structured"",
+      ""citations"": []
+    }
+  ],
+  ""limitations"": [
+    ""The corpus contains curated Phase 2 and Phase 3 obesity/overweight trials and may not represent the complete clinical-development landscape."",
+    ""ClinicalTrials.gov registry fields describe study design, objectives, and planned outcomes and do not necessarily report observed efficacy or safety results."",
+    ""Cross-trial comparisons are descriptive and should not be interpreted as evidence of clinical superiority."",
+    ""Narrative synthesis is limited to the retrieved clinical-trial evidence supplied for this answer."",
+    ""Strict primary-program comparisons exclude trials classified as another canonical program, multi-program, or unresolved/combination studies.""
+  ]
+}
+
+ATTEMPT 2 RAW OUTPUT:
+{
+  ""answer"": {
+    ""text"": ""Two obesity trials outside Novo Nordisk mention Semaglutide as an intervention or comparator."",
+    ""support_type"": ""structured"",
+    ""citations"": []
+  },
+  ""key_findings"": [
+    {
+      ""text"": ""Eli Lilly's Phase 2 trial NCT05616013 evaluated Bimagrumab and Semaglutide in adults who are overweight or obese."",
+      ""support_type"": ""structured"",
+      ""citations"": [
+        ""NCT05616013""
+      ]
+    },
+    {
+      ""text"": ""Eli Lilly's Phase 3 trial NCT05822830 evaluated Tirzepatide and Semaglutide in participants with obesity or overweight with weight-related comorbidities."",
+      ""support_type"": ""structured"",
+      ""citations"": [
+        ""NCT05822830""
+      ]
+    }
+  ],
+  ""limitations"": [
+    ""The corpus contains curated Phase 2 and Phase 3 obesity/overweight trials and may not represent the complete clinical-development landscape."",
+    ""ClinicalTrials.gov registry fields describe study design, objectives, and planned outcomes and do not necessarily report observed efficacy or safety results."",
+    ""Cross-trial comparisons are descriptive and should not be interpreted as evidence of clinical superiority."",
+    ""Narrative synthesis is limited to the retrieved clinical-trial evidence supplied for this answer."",
+    ""Strict primary-program comparisons exclude trials classified as another canonical program, multi-program, or unresolved/combination studies.""
+  ]
+}"

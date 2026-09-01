@@ -1,0 +1,4 @@
+question_id,bm25_dense_top10_overlap,top10_jaccard,bm25_only,dense_only
+A07,2,0.1111111111111111,8,8
+A06,2,0.1111111111111111,8,8
+C03,2,0.1111111111111111,8,8

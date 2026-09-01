@@ -1,0 +1,12 @@
+{
+  "version": "v3",
+  "status": "post-benchmark systematic hardening",
+  "changes": {
+    "active_ratio_semantics": "Share/proportion/rate questions retain the full portfolio denominator.",
+    "company_program_consistency": "Explicit company filters are authoritative; incompatible primary programs are removed rather than expanding company scope.",
+    "status_shares": "Grouped analytics now expose status shares for maturity interpretation."
+  },
+  "retrieval_changed": false,
+  "benchmark_changed": false,
+  "gold_changed": false
+}

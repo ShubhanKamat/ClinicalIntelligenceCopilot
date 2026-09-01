@@ -1,0 +1,113 @@
+raw_intervention_name,normalized_key,canonical_intervention_name,is_placebo,occurrences
+Semaglutide,semaglutide,Semaglutide,False,39
+Tirzepatide,tirzepatide,Tirzepatide,False,29
+Orforglipron,orforglipron,Orforglipron,False,16
+liraglutide,liraglutide,liraglutide,False,12
+Cagrilintide,cagrilintide,Cagrilintide,False,12
+Retatrutide,retatrutide,Retatrutide,False,11
+NNC0487-0111,nnc0487-0111,NNC0487-0111,False,10
+Eloralintide,eloralintide,Eloralintide,False,8
+Maridebart cafraglutide,maridebart cafraglutide,Maridebart cafraglutide,False,7
+Maridebart Cafraglutide,maridebart cafraglutide,Maridebart cafraglutide,False,6
+Mirikizumab,mirikizumab,Mirikizumab,False,4
+Survodutide,survodutide,Survodutide,False,3
+survodutide,survodutide,Survodutide,False,3
+Bimagrumab,bimagrumab,Bimagrumab,False,3
+Semaglutide 2.4 mg,semaglutide 2.4 mg,Semaglutide 2.4 mg,False,3
+Liraglutide,liraglutide,liraglutide,False,3
+Empagliflozin,empagliflozin,Empagliflozin,False,2
+BI 10773,bi 10773,BI 10773,False,2
+Macupatide,macupatide,Macupatide,False,2
+LY3841136,ly3841136,LY3841136,False,2
+LY3549492,ly3549492,LY3549492,False,2
+Ixekizumab,ixekizumab,Ixekizumab,False,2
+NNC0519-0130,nnc0519-0130,NNC0519-0130,False,2
+NNC0662-0419,nnc0662-0419,NNC0662-0419,False,2
+Semaglutide (administered by DV3396 pen),semaglutide (administered by dv3396 pen),Semaglutide (administered by DV3396 pen),False,2
+Semaglutide (administered by PDS290 pen),semaglutide (administered by pds290 pen),Semaglutide (administered by PDS290 pen),False,2
+Liraglutide 3.0 mg,liraglutide 3.0 mg,Liraglutide 3.0 mg,False,2
+Zenagamtide,zenagamtide,Zenagamtide,False,2
+Cagrisema,cagrisema,Cagrisema,False,2
+BI 3034701,bi 3034701,BI 3034701,False,1
+MICARDIS® (telmisartan),micardis (telmisartan),MICARDIS® (telmisartan),False,1
+ramipril,ramipril,ramipril,False,1
+BI 456906,bi 456906,BI 456906,False,1
+Insulin Glargine,insulin glargine,Insulin Glargine,False,1
+LY2189265,ly2189265,LY2189265,False,1
+LY3457263,ly3457263,LY3457263,False,1
+LY377604,ly377604,LY377604,False,1
+Sibutramine,sibutramine,Sibutramine,False,1
+Metoprolol,metoprolol,Metoprolol,False,1
+Clazakizumab,clazakizumab,Clazakizumab,False,1
+LY3437943,ly3437943,LY3437943,False,1
+Mibavademab,mibavademab,Mibavademab,False,1
+LY6249492,ly6249492,LY6249492,False,1
+LY3502970,ly3502970,LY3502970,False,1
+LY3305677,ly3305677,LY3305677,False,1
+LY3532226,ly3532226,LY3532226,False,1
+Mazdutide,mazdutide,Mazdutide,False,1
+orlistat,orlistat,orlistat,False,1
+CMS Intensive Behavior Therapy,cms intensive behavior therapy,CMS Intensive Behavior Therapy,False,1
+NovoFine® needle 6 mm,novofine needle 6 mm,NovoFine® needle 6 mm,False,1
+NovoFine® needle 12 mm,novofine needle 12 mm,NovoFine® needle 12 mm,False,1
+zenagamtide,zenagamtide,Zenagamtide,False,1
+biphasic insulin aspart,biphasic insulin aspart,biphasic insulin aspart,False,1
+Semaglutide 2.4 mg and NNC0165-1875 2.0 mg,semaglutide 2.4 mg and nnc0165-1875 2.0 mg,Semaglutide 2.4 mg and NNC0165-1875 2.0 mg,False,1
+Semaglutide 2.4 mg and NNC0165-1875 1.0 mg,semaglutide 2.4 mg and nnc0165-1875 1.0 mg,Semaglutide 2.4 mg and NNC0165-1875 1.0 mg,False,1
+Semaglutide 1.0 mg,semaglutide 1.0 mg,Semaglutide 1.0 mg,False,1
+NNC0174-0833,nnc0174-0833,NNC0174-0833,False,1
+semaglutide,semaglutide,Semaglutide,False,1
+metformin,metformin,metformin,False,1
+Insuline glargine U100 (reduced),insuline glargine u100 (reduced),Insuline glargine U100 (reduced),False,1
+Insuline glargine U100 (titrated),insuline glargine u100 (titrated),Insuline glargine U100 (titrated),False,1
+semaglutide 2.4 mg,semaglutide 2.4 mg,Semaglutide 2.4 mg,False,1
+insulin detemir,insulin detemir,insulin detemir,False,1
+insulin NPH,insulin nph,insulin NPH,False,1
+insulin aspart,insulin aspart,insulin aspart,False,1
+CagriSema (Cagrilintide B and Semaglutide I),cagrisema (cagrilintide b and semaglutide i),CagriSema (Cagrilintide B and Semaglutide I),False,1
+Oral semaglutide,oral semaglutide,Oral semaglutide,False,1
+UBT251,ubt251,UBT251,False,1
+semaglutide 50 mg,semaglutide 50 mg,semaglutide 50 mg,False,1
+Placebo,placebo,Placebo,True,103
+placebo,placebo,Placebo,True,10
+Placebo (semaglutide),placebo (semaglutide),Placebo (semaglutide),True,8
+Placebo (matched to NNC0487-0111),placebo (matched to nnc0487-0111),Placebo (matched to NNC0487-0111),True,7
+Placebo semaglutide,placebo semaglutide,Placebo semaglutide,True,6
+Placebo cagrilintide,placebo cagrilintide,Placebo cagrilintide,True,5
+Bimagrumab Placebo,bimagrumab placebo,Bimagrumab Placebo,True,2
+Tirzepatide Placebo,tirzepatide placebo,Tirzepatide Placebo,True,2
+Placebo (matched to semaglutide),placebo (matched to semaglutide),Placebo (matched to semaglutide),True,2
+Placebo Semaglutide,placebo semaglutide,Placebo semaglutide,True,2
+Placebo (Semaglutide),placebo (semaglutide),Placebo (semaglutide),True,2
+Placebo matching survodutide,placebo matching survodutide,Placebo matching survodutide,True,1
+Placebo matching BI 3034701,placebo matching bi 3034701,Placebo matching BI 3034701,True,1
+Placebo matching BI 456906,placebo matching bi 456906,Placebo matching BI 456906,True,1
+Placebo (matching empagliflozin),placebo (matching empagliflozin),Placebo (matching empagliflozin),True,1
+Placebo sibutramine,placebo sibutramine,Placebo sibutramine,True,1
+Placebo Metoprolol,placebo metoprolol,Placebo Metoprolol,True,1
+Placebo LY377604,placebo ly377604,Placebo LY377604,True,1
+Tirzepatide-Placebo,tirzepatide-placebo,Tirzepatide-Placebo,True,1
+Mibavademab-Placebo,mibavademab-placebo,Mibavademab-Placebo,True,1
+Macupatide Placebo,macupatide placebo,Macupatide Placebo,True,1
+Eloralintide Placebo,eloralintide placebo,Eloralintide Placebo,True,1
+Placebo (NNC0487-0111),placebo (nnc0487-0111),Placebo (NNC0487-0111),True,1
+Semaglutide Placebo,semaglutide placebo,Semaglutide Placebo,True,1
+Placebo (semaglutide 2.4 mg),placebo (semaglutide 2.4 mg),Placebo (semaglutide 2.4 mg),True,1
+NNC0662-0419 Placebo,nnc0662-0419 placebo,NNC0662-0419 Placebo,True,1
+Semaglutide placebo,semaglutide placebo,Semaglutide Placebo,True,1
+Semaglutide 2.4 mg and placebo 2.0 mg,semaglutide 2.4 mg and placebo 2.0 mg,Semaglutide 2.4 mg and placebo 2.0 mg,True,1
+Semaglutide 2.4 mg and placebo 1.0 mg,semaglutide 2.4 mg and placebo 1.0 mg,Semaglutide 2.4 mg and placebo 1.0 mg,True,1
+Placebo (liraglutide),placebo (liraglutide),Placebo (liraglutide),True,1
+Placebo I (Semaglutide),placebo i (semaglutide),Placebo I (Semaglutide),True,1
+Placebo II (Semaglutide),placebo ii (semaglutide),Placebo II (Semaglutide),True,1
+Placebo (NNC0174-0833),placebo (nnc0174-0833),Placebo (NNC0174-0833),True,1
+Placebo (Liraglutide 3.0 mg),placebo (liraglutide 3.0 mg),Placebo (Liraglutide 3.0 mg),True,1
+Placebo (matched to zenagamtide),placebo (matched to zenagamtide),Placebo (matched to zenagamtide),True,1
+semaglutide 2.4 mg (placebo),semaglutide 2.4 mg (placebo),semaglutide 2.4 mg (placebo),True,1
+Placebo CagriSema,placebo cagrisema,Placebo CagriSema,True,1
+Placebo matched to CagriSema (Cagrilintide B and Semaglutide I),placebo matched to cagrisema (cagrilintide b and semaglutide i),Placebo matched to CagriSema (Cagrilintide B and Semaglutide I),True,1
+Placebo (matched to Cagrilintide),placebo (matched to cagrilintide),Placebo (matched to Cagrilintide),True,1
+Placebo ( matched to Zenagamtide),placebo ( matched to zenagamtide),Placebo ( matched to Zenagamtide),True,1
+Placebo (matched to NNC0487-0111 ),placebo (matched to nnc0487-0111 ),Placebo (matched to NNC0487-0111 ),True,1
+placebo (semaglutide),placebo (semaglutide),Placebo (semaglutide),True,1
+Placebo Cagrilintide,placebo cagrilintide,Placebo cagrilintide,True,1

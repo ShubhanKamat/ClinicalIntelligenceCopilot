@@ -1,0 +1,91 @@
+question_id,method,trial_rank,nct_id,is_gold,canonical_company,brief_title,best_chunk_type,score
+C03,BM25,1,NCT06439277,False,Eli Lilly,A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2),primary_outcome,24.54009480431784
+C03,BM25,2,NCT02527200,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Paediatric Subjects With Prader-Willi Syndrome,secondary_outcomes,24.134451339796662
+C03,BM25,3,NCT02918279,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Pubertal Adolescent Subjects With Obesity,secondary_outcomes,23.348518955082902
+C03,BM25,4,NCT04844918,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity Disease,overview,20.704487343033215
+C03,BM25,5,NCT04184622,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight,overview,20.45445719159706
+C03,BM25,6,NCT06901349,False,Eli Lilly,"A Study of Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in Participants With Obesity or Overweight With Type 2 Diabetes",overview,20.25453359946063
+C03,BM25,7,NCT05024032,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Chinese Participants Without Type 2 Diabetes Who Have Obesity or Overweight (SURMOUNT-CN),overview,20.25295473474852
+C03,BM25,8,NCT04847557,True,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF) and Obesity: The SUMMIT Trial,overview,20.120239331758835
+C03,BM25,9,NCT05556512,False,Eli Lilly,A Study of Tirzepatide (LY3298176) on the Reduction on Morbidity and Mortality in Adults With Obesity,overview,20.11739418768588
+C03,BM25,10,NCT04775082,False,Novo Nordisk,SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity,population,19.97969420578585
+C03,Dense,1,NCT05822830,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight With Weight Related Comorbidities,overview,0.8164365291595459
+C03,Dense,2,NCT06131437,False,Novo Nordisk,A Research Study to See How Well CagriSema Compared to Tirzepatide Helps People With Obesity Lose Weight,primary_outcome,0.7762182950973511
+C03,Dense,3,NCT06041217,False,Novo Nordisk,A Research Study to See How Well Semaglutide Helps People Who Have a Body Weight Above the Healthy Weight Range,population,0.7388054728507996
+C03,Dense,4,NCT04844918,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity Disease,overview,0.738386869430542
+C03,Dense,5,NCT06047548,False,Eli Lilly,A Study of LY3298176 (Tirzepatide) For the Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities,population,0.7331159710884094
+C03,Dense,6,NCT04969939,False,Novo Nordisk,A Research Study to Investigate How Well NNC0165-1875 in Combination With Semaglutide Works in People With Obesity,population,0.732109546661377
+C03,Dense,7,NCT03611582,False,Novo Nordisk,Research Study to Look at How Well Semaglutide is at Lowering Weight When Taken Together With an Intensive Lifestyle Program,population,0.7320024967193604
+C03,Dense,8,NCT04251156,False,Novo Nordisk,Research Study of How Well Semaglutide Works in People Living With Overweight or Obesity.,population,0.7317302823066711
+C03,Dense,9,NCT04660643,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight for the Maintenance of Weight Loss,population,0.7288840413093567
+C03,Dense,10,NCT04184622,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight,overview,0.7280404567718506
+C03,Hybrid_RRF,1,NCT04844918,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity Disease,overview | overview,0.03125
+C03,Hybrid_RRF,2,NCT04184622,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight,overview | overview,0.02967032967032967
+C03,Hybrid_RRF,3,NCT05822830,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight With Weight Related Comorbidities,overview | overview,0.029051670471052088
+C03,Hybrid_RRF,4,NCT04660643,False,Eli Lilly,A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight for the Maintenance of Weight Loss,overview | population,0.028577260665441927
+C03,Hybrid_RRF,5,NCT06439277,False,Eli Lilly,A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2),primary_outcome | population,0.02788769549651404
+C03,Hybrid_RRF,6,NCT05556512,False,Eli Lilly,A Study of Tirzepatide (LY3298176) on the Reduction on Morbidity and Mortality in Adults With Obesity,overview | overview,0.027313266443701224
+C03,Hybrid_RRF,7,NCT06643728,False,Eli Lilly,"A Study to Investigate Weight Management With Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in Adults With Obesity or Overweight",overview | overview,0.026547116736990152
+C03,Hybrid_RRF,8,NCT06047548,False,Eli Lilly,A Study of LY3298176 (Tirzepatide) For the Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities,overview | population,0.02580128205128205
+C03,Hybrid_RRF,9,NCT06131437,False,Novo Nordisk,A Research Study to See How Well CagriSema Compared to Tirzepatide Helps People With Obesity Lose Weight,overview | primary_outcome,0.02565284178187404
+C03,Hybrid_RRF,10,NCT06901349,False,Eli Lilly,"A Study of Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in Participants With Obesity or Overweight With Type 2 Diabetes",overview | overview,0.025568181818181816
+A06,BM25,1,NCT02527200,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Paediatric Subjects With Prader-Willi Syndrome,secondary_outcomes,24.455253404658816
+A06,BM25,2,NCT02918279,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Pubertal Adolescent Subjects With Obesity,secondary_outcomes,23.309367152257757
+A06,BM25,3,NCT07745504,False,Novo Nordisk,A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight,overview,19.708503224491853
+A06,BM25,4,NCT03548987,False,Novo Nordisk,Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity,overview,19.697891604003086
+A06,BM25,5,NCT03552757,False,Novo Nordisk,Research Study Investigating How Well Semaglutide Works in People With Type 2 Diabetes Suffering From Overweight or Obesity,overview,19.5665284925597
+A06,BM25,6,NCT06388187,True,Novo Nordisk,A Research Study to See How Well Different Doses of CagriSema Help People With Excess Body Weight Lose Weight,overview,19.41112178075228
+A06,BM25,7,NCT06131437,False,Novo Nordisk,A Research Study to See How Well CagriSema Compared to Tirzepatide Helps People With Obesity Lose Weight,overview,19.38867768794486
+A06,BM25,8,NCT06937099,False,Eli Lilly,Mirikizumab and Tirzepatide Administered in Adult Participants With Moderately to Severely Active Crohn's Disease and Obesity or Overweight,overview,19.076242780344792
+A06,BM25,9,NCT02963922,False,Novo Nordisk,Effect and Safety of Liraglutide 3.0 mg in Subjects With Overweight or Obesity and Type 2 Diabetes Mellitus Treated With Basal Insulin,secondary_outcomes,18.989055478340344
+A06,BM25,10,NCT04775082,False,Novo Nordisk,SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity,population,18.95054397141149
+A06,Dense,1,NCT00504673,False,Novo Nordisk,Comparison of Insulin Detemir Versus Insulin NPH on Weight Change in Overweight and Obese With Type 2 Diabetes,design,0.6298338174819946
+A06,Dense,2,NCT06143956,False,Eli Lilly,A Master Protocol Study (LY900038) of Multiple Intervention-Specific-Appendices (ISAs) in Adult Participants With Obesity or Overweight,primary_outcome,0.6289966106414795
+A06,Dense,3,NCT05669599,False,Amgen,"Dose-ranging Study to Evaluate the Efficacy, Safety, and Tolerability of AMG 133 in Adult Subjects With Overweight or Obesity, With or Without Type 2 Diabetes Mellitus",overview,0.6284857988357544
+A06,Dense,4,NCT07184632,False,Novo Nordisk,A Research Study on How Well Different Doses of the Medicine NNC0662-0419 Help People Living With Overweight or Obesity,design,0.6279268264770508
+A06,Dense,5,NCT04775082,False,Novo Nordisk,SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity,primary_outcome,0.6266592144966125
+A06,Dense,6,NCT06672549,False,Eli Lilly,A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040),population,0.6253040432929993
+A06,Dense,7,NCT07030868,False,Eli Lilly,A Study of LY3549492 in Adults With Obesity or Overweight With Type 2 Diabetes,primary_outcome,0.625176191329956
+A06,Dense,8,NCT06373146,False,Eli Lilly,A Study of Tirzepatide (LY3298176) Plus Mibavademab Compared With Tirzepatide Alone in Adult Participants With Obesity,primary_outcome,0.6227841377258301
+A06,Dense,9,NCT02527200,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Paediatric Subjects With Prader-Willi Syndrome,population,0.6214821338653564
+A06,Dense,10,NCT03856047,False,Novo Nordisk,Research Study Investigating How Well NNC0174-0833 Works in People Suffering From Overweight or Obesity.,design,0.6194155812263489
+A06,Hybrid_RRF,1,NCT02527200,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Paediatric Subjects With Prader-Willi Syndrome,secondary_outcomes | population,0.030886196246139225
+A06,Hybrid_RRF,2,NCT04775082,False,Novo Nordisk,SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity,population | primary_outcome,0.02967032967032967
+A06,Hybrid_RRF,3,NCT02918279,False,Novo Nordisk,Effect of Liraglutide for Weight Management in Pubertal Adolescent Subjects With Obesity,secondary_outcomes | design,0.027893738140417457
+A06,Hybrid_RRF,4,NCT07533175,False,Novo Nordisk,AMAZE 2: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight,overview | design,0.0251661918328585
+A06,Hybrid_RRF,5,NCT02963922,False,Novo Nordisk,Effect and Safety of Liraglutide 3.0 mg in Subjects With Overweight or Obesity and Type 2 Diabetes Mellitus Treated With Basal Insulin,secondary_outcomes | population,0.02501906941266209
+A06,Hybrid_RRF,6,NCT07745504,False,Novo Nordisk,A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight,overview | population,0.02442002442002442
+A06,Hybrid_RRF,7,NCT07503210,False,Novo Nordisk,AMAZE 12: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight Maintain Their Weight Loss,overview | population,0.024146905725853096
+A06,Hybrid_RRF,8,NCT06143956,False,Eli Lilly,A Master Protocol Study (LY900038) of Multiple Intervention-Specific-Appendices (ISAs) in Adult Participants With Obesity or Overweight,overview | primary_outcome,0.024129032258064516
+A06,Hybrid_RRF,9,NCT06672549,False,Eli Lilly,A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040),overview | population,0.02408008658008658
+A06,Hybrid_RRF,10,NCT05669599,False,Amgen,"Dose-ranging Study to Evaluate the Efficacy, Safety, and Tolerability of AMG 133 in Adult Subjects With Overweight or Obesity, With or Without Type 2 Diabetes Mellitus",overview | overview,0.02393753200204813
+A07,BM25,1,NCT05616013,False,Eli Lilly,Safety and Efficacy of Bimagrumab and Semaglutide in Adults Who Are Overweight or Obese,secondary_outcomes,19.74308591243864
+A07,BM25,2,NCT05890976,False,Novo Nordisk,Research Study Looking at How Well Semaglutide Tablets Taken Once Daily Work in Chinese Adults Who Are Above a Healthy Weight Range (OASIS 3),overview,18.48954216445306
+A07,BM25,3,NCT03811574,False,Novo Nordisk,STEP 6: Research Study Investigating How Well Semaglutide Works in People Living With Overweight or Obesity,secondary_outcomes,18.39786869520908
+A07,BM25,4,NCT03552757,True,Novo Nordisk,Research Study Investigating How Well Semaglutide Works in People With Type 2 Diabetes Suffering From Overweight or Obesity,secondary_outcomes,17.852596603321846
+A07,BM25,5,NCT04251156,False,Novo Nordisk,Research Study of How Well Semaglutide Works in People Living With Overweight or Obesity.,secondary_outcomes,17.14464335571473
+A07,BM25,6,NCT07395687,False,Novo Nordisk,A Research Study on How Well Different Doses of the Medicine UBT251 Help People Living With Overweight or Obesity,overview,17.022627618036456
+A07,BM25,7,NCT05035095,False,Novo Nordisk,Research Study to Investigate How Well Semaglutide Tablets Taken Once Daily Work in People Who Are Overweight or Living With Obesity (OASIS 1),overview,16.645998573284466
+A07,BM25,8,NCT05556512,False,Eli Lilly,A Study of Tirzepatide (LY3298176) on the Reduction on Morbidity and Mortality in Adults With Obesity,overview,16.406516626222345
+A07,BM25,9,NCT07745504,False,Novo Nordisk,A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight,overview,16.404654172969927
+A07,BM25,10,NCT07564414,False,Novo Nordisk,A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight,overview,16.22570131493461
+A07,Dense,1,NCT06124807,False,Eli Lilly,A Study of LY3305677 Compared With Placebo in Adult Participants With Obesity or Overweight,secondary_outcomes,0.6546863317489624
+A07,Dense,2,NCT06672939,False,Eli Lilly,"A Study of Orforglipron (LY3502970) in Adolescent Participants With Obesity, or Overweight With Related Comorbidities",population,0.649971067905426
+A07,Dense,3,NCT04102189,False,Novo Nordisk,A Research Study on How Well Semaglutide Works in Adolescents With Overweight or Obesity,secondary_outcomes,0.6487587690353394
+A07,Dense,4,NCT05051579,False,Eli Lilly,A Study of LY3502970 in Participants With Obesity or Overweight With Weight-related Comorbidities,secondary_outcomes,0.6471784710884094
+A07,Dense,5,NCT05616013,False,Eli Lilly,Safety and Efficacy of Bimagrumab and Semaglutide in Adults Who Are Overweight or Obese,secondary_outcomes,0.6452311277389526
+A07,Dense,6,NCT04251156,False,Novo Nordisk,Research Study of How Well Semaglutide Works in People Living With Overweight or Obesity.,secondary_outcomes,0.6440351009368896
+A07,Dense,7,NCT06439277,False,Eli Lilly,A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2),population,0.644033670425415
+A07,Dense,8,NCT01272219,False,Novo Nordisk,Effect of Liraglutide on Body Weight in Non-diabetic Obese Subjects or Overweight Subjects With Co-morbidities: SCALE™ - Obesity and Pre-diabetes,population,0.6435391306877136
+A07,Dense,9,NCT07184632,False,Novo Nordisk,A Research Study on How Well Different Doses of the Medicine NNC0662-0419 Help People Living With Overweight or Obesity,overview,0.6430678367614746
+A07,Dense,10,NCT06672549,False,Eli Lilly,A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040),population,0.6425793766975403
+A07,Hybrid_RRF,1,NCT05616013,False,Eli Lilly,Safety and Efficacy of Bimagrumab and Semaglutide in Adults Who Are Overweight or Obese,secondary_outcomes | secondary_outcomes,0.03177805800756621
+A07,Hybrid_RRF,2,NCT04251156,False,Novo Nordisk,Research Study of How Well Semaglutide Works in People Living With Overweight or Obesity.,secondary_outcomes | secondary_outcomes,0.030536130536130537
+A07,Hybrid_RRF,3,NCT03811574,False,Novo Nordisk,STEP 6: Research Study Investigating How Well Semaglutide Works in People Living With Overweight or Obesity,secondary_outcomes | secondary_outcomes,0.029030910609857977
+A07,Hybrid_RRF,4,NCT05931380,False,Eli Lilly,A Study of Once-Daily Oral Orforglipron (LY3502970) in Japanese Adult Participants With Obesity Disease,population | secondary_outcomes,0.028169014084507043
+A07,Hybrid_RRF,5,NCT05035095,False,Novo Nordisk,Research Study to Investigate How Well Semaglutide Tablets Taken Once Daily Work in People Who Are Overweight or Living With Obesity (OASIS 1),overview | secondary_outcomes,0.027912386121341344
+A07,Hybrid_RRF,6,NCT04102189,False,Novo Nordisk,A Research Study on How Well Semaglutide Works in Adolescents With Overweight or Obesity,overview | secondary_outcomes,0.026182294223531334
+A07,Hybrid_RRF,7,NCT07184632,False,Novo Nordisk,A Research Study on How Well Different Doses of the Medicine NNC0662-0419 Help People Living With Overweight or Obesity,overview | overview,0.026120660599932594
+A07,Hybrid_RRF,8,NCT07395687,False,Novo Nordisk,A Research Study on How Well Different Doses of the Medicine UBT251 Help People Living With Overweight or Obesity,overview | overview,0.025252525252525256
+A07,Hybrid_RRF,9,NCT07564414,False,Novo Nordisk,A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight,overview | secondary_outcomes,0.025155279503105588
+A07,Hybrid_RRF,10,NCT07357766,False,Novo Nordisk,A Research Study to Compare Different Versions of Injectable CagriSema and Placebo in People With Excess Body Weight,population | overview,0.024562989752863168

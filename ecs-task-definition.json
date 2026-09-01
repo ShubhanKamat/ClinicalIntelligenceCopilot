@@ -1,0 +1,51 @@
+{
+    "taskRoleArn":  "arn:aws:iam::353708126804:role/obesity-ci-copilot-v3-ecs-task",
+    "networkMode":  "awsvpc",
+    "cpu":  "4096",
+    "runtimePlatform":  {
+                            "operatingSystemFamily":  "LINUX",
+                            "cpuArchitecture":  "X86_64"
+                        },
+    "memory":  "8192",
+    "executionRoleArn":  "arn:aws:iam::353708126804:role/obesity-ci-copilot-v3-ecs-execution",
+    "requiresCompatibilities":  [
+                                    "FARGATE"
+                                ],
+    "containerDefinitions":  [
+                                 {
+                                     "name":  "copilot",
+                                     "logConfiguration":  {
+                                                              "logDriver":  "awslogs",
+                                                              "options":  {
+                                                                              "awslogs-region":  "us-east-1",
+                                                                              "awslogs-stream-prefix":  "copilot",
+                                                                              "awslogs-group":  "/ecs/obesity-ci-copilot-v3"
+                                                                          }
+                                                          },
+                                     "environment":  [
+                                                         {
+                                                             "value":  "us-east-1",
+                                                             "name":  "AWS_REGION"
+                                                         },
+                                                         {
+                                                             "value":  "us-east-1",
+                                                             "name":  "AWS_DEFAULT_REGION"
+                                                         },
+                                                         {
+                                                             "value":  "/opt/hf-cache",
+                                                             "name":  "HF_HOME"
+                                                         }
+                                                     ],
+                                     "essential":  true,
+                                     "image":  "353708126804.dkr.ecr.us-east-1.amazonaws.com/obesity-ci-copilot:v3-ecs-lazy",
+                                     "portMappings":  [
+                                                          {
+                                                              "containerPort":  8000,
+                                                              "protocol":  "tcp",
+                                                              "hostPort":  8000
+                                                          }
+                                                      ]
+                                 }
+                             ],
+    "family":  "obesity-ci-copilot-v3"
+}
