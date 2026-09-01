@@ -10,7 +10,9 @@ The system combines:
 - citation validation and abstention guardrails,
 - AWS deployment, monitoring, and analyst-facing Streamlit UI.
 
-> This is a portfolio decision-support prototype, not medical advice. Cross-trial comparisons are descriptive and are not presented as head-to-head efficacy claims.
+## Disclaimer
+
+This project is provided solely for educational, research, and portfolio purposes. It is not intended to provide medical, clinical, investment, regulatory, legal, or commercial advice, and should not be used to make real-world healthcare or business decisions. All analyses are derived from publicly available data sources and may contain inaccuracies, omissions, delays, or changes in source information. References to companies, products, drug candidates, trademarks, or clinical programs are for identification and analytical purposes only and do not imply affiliation, endorsement, sponsorship, or authorization by any organization mentioned. No claim is made regarding the safety, efficacy, regulatory approval, commercial potential, or comparative superiority of any drug or company. The software and outputs are provided “as is,” without warranties of any kind, and users are responsible for independently verifying any information before relying on it.
 
 ---
 
@@ -356,7 +358,6 @@ The project keeps evaluation and deployment artifacts separate from runtime sour
 - The final holdout is intentionally small.
 - Retrieval Recall@5 is modest despite strong Hit@5.
 - Human-rated answer correctness was 66.7% on the frozen holdout.
-- The current AWS account cannot invoke Bedrock models because of Error 002.
 - No reranker was added to the frozen retrieval system.
 - The service is designed as a portfolio prototype, not a regulated medical system.
 
